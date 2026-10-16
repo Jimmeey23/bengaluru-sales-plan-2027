@@ -1,0 +1,1458 @@
+{
+ "source": "Sales - Raw - Sales (23).csv (Momence payments export)",
+ "scope": "Bengaluru studios only (Kenkere House / Vittal Mallya Road, Studio by Copper + Cloves, Plash Pilates)",
+ "generatedFor": "2026-10-16",
+ "dateRange": [
+  "2023-11",
+  "2026-10"
+ ],
+ "totals": {
+  "lines": 6274,
+  "revenue": 26404315.99
+ },
+ "monthly": [
+  {
+   "month": "2023-11",
+   "lines": 19,
+   "revenue": 260105.9
+  },
+  {
+   "month": "2023-12",
+   "lines": 155,
+   "revenue": 490364.76
+  },
+  {
+   "month": "2024-01",
+   "lines": 192,
+   "revenue": 587000.12
+  },
+  {
+   "month": "2024-02",
+   "lines": 147,
+   "revenue": 630613.45
+  },
+  {
+   "month": "2024-03",
+   "lines": 157,
+   "revenue": 635803.57
+  },
+  {
+   "month": "2024-04",
+   "lines": 114,
+   "revenue": 677554.74
+  },
+  {
+   "month": "2024-05",
+   "lines": 130,
+   "revenue": 569820.79
+  },
+  {
+   "month": "2024-06",
+   "lines": 123,
+   "revenue": 357548.5
+  },
+  {
+   "month": "2024-07",
+   "lines": 148,
+   "revenue": 604501.82
+  },
+  {
+   "month": "2024-08",
+   "lines": 142,
+   "revenue": 648086.01
+  },
+  {
+   "month": "2024-09",
+   "lines": 121,
+   "revenue": 577642.93
+  },
+  {
+   "month": "2024-10",
+   "lines": 165,
+   "revenue": 645738.78
+  },
+  {
+   "month": "2024-11",
+   "lines": 128,
+   "revenue": 707875.95
+  },
+  {
+   "month": "2024-12",
+   "lines": 99,
+   "revenue": 680197.25
+  },
+  {
+   "month": "2025-01",
+   "lines": 204,
+   "revenue": 750828.0
+  },
+  {
+   "month": "2025-02",
+   "lines": 155,
+   "revenue": 815920.14
+  },
+  {
+   "month": "2025-03",
+   "lines": 145,
+   "revenue": 609460.9
+  },
+  {
+   "month": "2025-04",
+   "lines": 151,
+   "revenue": 962638.58
+  },
+  {
+   "month": "2025-05",
+   "lines": 155,
+   "revenue": 605519.5
+  },
+  {
+   "month": "2025-06",
+   "lines": 188,
+   "revenue": 781727.5
+  },
+  {
+   "month": "2025-07",
+   "lines": 207,
+   "revenue": 956742.88
+  },
+  {
+   "month": "2025-08",
+   "lines": 173,
+   "revenue": 699745.18
+  },
+  {
+   "month": "2025-09",
+   "lines": 222,
+   "revenue": 1127405.98
+  },
+  {
+   "month": "2025-10",
+   "lines": 160,
+   "revenue": 485314.8
+  },
+  {
+   "month": "2025-11",
+   "lines": 191,
+   "revenue": 979045.7
+  },
+  {
+   "month": "2025-12",
+   "lines": 172,
+   "revenue": 527555.08
+  },
+  {
+   "month": "2026-01",
+   "lines": 186,
+   "revenue": 1110874.07
+  },
+  {
+   "month": "2026-02",
+   "lines": 208,
+   "revenue": 833988.33
+  },
+  {
+   "month": "2026-03",
+   "lines": 240,
+   "revenue": 621186.8
+  },
+  {
+   "month": "2026-04",
+   "lines": 280,
+   "revenue": 1216947.21
+  },
+  {
+   "month": "2026-05",
+   "lines": 245,
+   "revenue": 988517.91
+  },
+  {
+   "month": "2026-06",
+   "lines": 260,
+   "revenue": 917709.97
+  },
+  {
+   "month": "2026-07",
+   "lines": 261,
+   "revenue": 1088188.74
+  },
+  {
+   "month": "2026-08",
+   "lines": 284,
+   "revenue": 959985.21
+  },
+  {
+   "month": "2026-09",
+   "lines": 258,
+   "revenue": 1028435.01
+  },
+  {
+   "month": "2026-10",
+   "lines": 89,
+   "revenue": 263723.93
+  }
+ ],
+ "products": [
+  {
+   "product": "Studio 1 Month Unlimited",
+   "units": 453,
+   "revenue": 6234893.2,
+   "avgRealisedPrice": 13763.56,
+   "discountGiven": 858601.14,
+   "firstSale": "2023-11-28",
+   "lastSale": "2026-10-09",
+   "unitsLast90d": 24,
+   "revenueLast90d": 339071.04
+  },
+  {
+   "product": "Studio 3 Month Unlimited",
+   "units": 124,
+   "revenue": 4879444.78,
+   "avgRealisedPrice": 39350.36,
+   "discountGiven": 501384.91,
+   "firstSale": "2023-11-30",
+   "lastSale": "2026-10-05",
+   "unitsLast90d": 20,
+   "revenueLast90d": 801990.13
+  },
+  {
+   "product": "Studio 8 Class Package",
+   "units": 319,
+   "revenue": 2788430.65,
+   "avgRealisedPrice": 8741.16,
+   "discountGiven": 91701.0,
+   "firstSale": "2023-11-26",
+   "lastSale": "2026-10-09",
+   "unitsLast90d": 33,
+   "revenueLast90d": 284980.5
+  },
+  {
+   "product": "Studio Single Class",
+   "units": 1656,
+   "revenue": 2240672.82,
+   "avgRealisedPrice": 1353.06,
+   "discountGiven": 3210.0,
+   "firstSale": "2023-11-30",
+   "lastSale": "2026-10-10",
+   "unitsLast90d": 124,
+   "revenueLast90d": 175486.5
+  },
+  {
+   "product": "Studio 12 Class Package",
+   "units": 173,
+   "revenue": 2223345.84,
+   "avgRealisedPrice": 12851.71,
+   "discountGiven": 143420.3,
+   "firstSale": "2023-11-26",
+   "lastSale": "2026-10-06",
+   "unitsLast90d": 16,
+   "revenueLast90d": 208687.44
+  },
+  {
+   "product": "Studio Annual Unlimited",
+   "units": 11,
+   "revenue": 1431140.8,
+   "avgRealisedPrice": 130103.71,
+   "discountGiven": 333776.76,
+   "firstSale": "2023-11-26",
+   "lastSale": "2026-07-20",
+   "unitsLast90d": 1,
+   "revenueLast90d": 124000.0
+  },
+  {
+   "product": "Session",
+   "units": 640,
+   "revenue": 1025015.97,
+   "avgRealisedPrice": 1601.59,
+   "discountGiven": 920.0,
+   "firstSale": "2023-12-05",
+   "lastSale": "2026-10-07",
+   "unitsLast90d": 25,
+   "revenueLast90d": 41107.5
+  },
+  {
+   "product": "Studio 10 Single Class Package",
+   "units": 82,
+   "revenue": 1018675.02,
+   "avgRealisedPrice": 12422.87,
+   "discountGiven": 54100.0,
+   "firstSale": "2024-05-11",
+   "lastSale": "2026-10-08",
+   "unitsLast90d": 7,
+   "revenueLast90d": 88200.0
+  },
+  {
+   "product": "Studio 6 Month Unlimited",
+   "units": 11,
+   "revenue": 807001.2,
+   "avgRealisedPrice": 73363.75,
+   "discountGiven": 133035.0,
+   "firstSale": "2024-04-16",
+   "lastSale": "2026-09-09",
+   "unitsLast90d": 1,
+   "revenueLast90d": 69882.75
+  },
+  {
+   "product": "Studio 4 Class Package",
+   "units": 143,
+   "revenue": 682002.47,
+   "avgRealisedPrice": 4769.25,
+   "discountGiven": 2243.7,
+   "firstSale": "2023-11-28",
+   "lastSale": "2026-10-06",
+   "unitsLast90d": 21,
+   "revenueLast90d": 98122.51
+  },
+  {
+   "product": "Studio 2 Week Unlimited",
+   "units": 68,
+   "revenue": 532208.4,
+   "avgRealisedPrice": 7826.59,
+   "discountGiven": 720.0,
+   "firstSale": "2024-01-05",
+   "lastSale": "2026-10-03",
+   "unitsLast90d": 11,
+   "revenueLast90d": 83160.0
+  },
+  {
+   "product": "Studio Newcomers 2 Week Unlimited",
+   "units": 67,
+   "revenue": 444130.02,
+   "avgRealisedPrice": 6628.81,
+   "discountGiven": 0.0,
+   "firstSale": "2023-11-27",
+   "lastSale": "2026-08-05",
+   "unitsLast90d": 1,
+   "revenueLast90d": 6037.5
+  },
+  {
+   "product": "Retail - Other Retail",
+   "units": 871,
+   "revenue": 341606.95,
+   "avgRealisedPrice": 392.2,
+   "discountGiven": 10000.0,
+   "firstSale": "2023-11-29",
+   "lastSale": "2026-10-10",
+   "unitsLast90d": 255,
+   "revenueLast90d": 47204.84
+  },
+  {
+   "product": "Retail - Apparel",
+   "units": 215,
+   "revenue": 301328.23,
+   "avgRealisedPrice": 1401.53,
+   "discountGiven": 8900.0,
+   "firstSale": "2023-12-12",
+   "lastSale": "2026-10-08",
+   "unitsLast90d": 18,
+   "revenueLast90d": 29699.01
+  },
+  {
+   "product": "Private Class",
+   "units": 31,
+   "revenue": 242104.22,
+   "avgRealisedPrice": 7809.81,
+   "discountGiven": 4671.0,
+   "firstSale": "2025-08-22",
+   "lastSale": "2026-09-24",
+   "unitsLast90d": 26,
+   "revenueLast90d": 143640.0
+  },
+  {
+   "product": "Studio Newcomers 2 For 1",
+   "units": 155,
+   "revenue": 216233.29,
+   "avgRealisedPrice": 1395.05,
+   "discountGiven": 510.0,
+   "firstSale": "2024-11-16",
+   "lastSale": "2026-10-08",
+   "unitsLast90d": 31,
+   "revenueLast90d": 43942.5
+  },
+  {
+   "product": "Studio Private Class",
+   "units": 48,
+   "revenue": 198841.22,
+   "avgRealisedPrice": 4142.53,
+   "discountGiven": 0.0,
+   "firstSale": "2024-07-16",
+   "lastSale": "2026-10-04",
+   "unitsLast90d": 11,
+   "revenueLast90d": 45333.63
+  },
+  {
+   "product": "New Client Intro Pack",
+   "units": 251,
+   "revenue": 177896.26,
+   "avgRealisedPrice": 708.75,
+   "discountGiven": 0.0,
+   "firstSale": "2026-02-11",
+   "lastSale": "2026-10-10",
+   "unitsLast90d": 88,
+   "revenueLast90d": 62370.01
+  },
+  {
+   "product": "Retail - Consumables",
+   "units": 806,
+   "revenue": 151263.65,
+   "avgRealisedPrice": 187.67,
+   "discountGiven": 0.0,
+   "firstSale": "2023-11-25",
+   "lastSale": "2026-10-08",
+   "unitsLast90d": 16,
+   "revenueLast90d": 22912.54
+  },
+  {
+   "product": "The Big 85 Flex: Anniversary Edition",
+   "units": 1,
+   "revenue": 96356.0,
+   "avgRealisedPrice": 96356.0,
+   "discountGiven": 0.0,
+   "firstSale": "2026-04-26",
+   "lastSale": "2026-04-26",
+   "unitsLast90d": 0,
+   "revenueLast90d": 0.0
+  },
+  {
+   "product": "Copper + Cloves 10 Class Pack",
+   "units": 9,
+   "revenue": 76545.0,
+   "avgRealisedPrice": 8505.0,
+   "discountGiven": 0.0,
+   "firstSale": "2025-10-26",
+   "lastSale": "2026-08-07",
+   "unitsLast90d": 1,
+   "revenueLast90d": 8505.0
+  },
+  {
+   "product": "Newcomer 8 Class Package",
+   "units": 8,
+   "revenue": 76194.0,
+   "avgRealisedPrice": 9524.25,
+   "discountGiven": 0.0,
+   "firstSale": "2025-06-15",
+   "lastSale": "2026-09-12",
+   "unitsLast90d": 1,
+   "revenueLast90d": 8715.0
+  },
+  {
+   "product": "Copper + Cloves Single Class",
+   "units": 77,
+   "revenue": 72765.0,
+   "avgRealisedPrice": 945.0,
+   "discountGiven": 0.0,
+   "firstSale": "2025-10-02",
+   "lastSale": "2026-10-08",
+   "unitsLast90d": 5,
+   "revenueLast90d": 4725.0
+  },
+  {
+   "product": "Studio 20 Single Class Package",
+   "units": 2,
+   "revenue": 45000.0,
+   "avgRealisedPrice": 22500.0,
+   "discountGiven": 2200.0,
+   "firstSale": "2024-01-21",
+   "lastSale": "2026-04-20",
+   "unitsLast90d": 0,
+   "revenueLast90d": 0.0
+  },
+  {
+   "product": "Studio Hybrid 1 Month unlimited",
+   "units": 2,
+   "revenue": 37275.0,
+   "avgRealisedPrice": 18637.5,
+   "discountGiven": 0.0,
+   "firstSale": "2026-02-04",
+   "lastSale": "2026-03-05",
+   "unitsLast90d": 0,
+   "revenueLast90d": 0.0
+  },
+  {
+   "product": "Studio 6 Week Unlimited",
+   "units": 1,
+   "revenue": 22066.0,
+   "avgRealisedPrice": 22066.0,
+   "discountGiven": 3300.0,
+   "firstSale": "2025-04-29",
+   "lastSale": "2025-04-29",
+   "unitsLast90d": 0,
+   "revenueLast90d": 0.0
+  },
+  {
+   "product": "Copper + Cloves Credit",
+   "units": 39,
+   "revenue": 18427.5,
+   "avgRealisedPrice": 472.5,
+   "discountGiven": 0.0,
+   "firstSale": "2025-10-08",
+   "lastSale": "2026-10-04",
+   "unitsLast90d": 11,
+   "revenueLast90d": 5197.5
+  },
+  {
+   "product": "Retail - Studio Book Out (Member Rate)",
+   "units": 1,
+   "revenue": 14160.0,
+   "avgRealisedPrice": 14160.0,
+   "discountGiven": 0.0,
+   "firstSale": "2024-10-04",
+   "lastSale": "2024-10-04",
+   "unitsLast90d": 0,
+   "revenueLast90d": 0.0
+  },
+  {
+   "product": "Plash Pilates Single Class Package",
+   "units": 3,
+   "revenue": 3780.0,
+   "avgRealisedPrice": 1260.0,
+   "discountGiven": 0.0,
+   "firstSale": "2026-09-25",
+   "lastSale": "2026-10-01",
+   "unitsLast90d": 3,
+   "revenueLast90d": 3780.0
+  },
+  {
+   "product": "Gift Card",
+   "units": 2,
+   "revenue": 3417.5,
+   "avgRealisedPrice": 1708.75,
+   "discountGiven": 0.0,
+   "firstSale": "2025-01-28",
+   "lastSale": "2026-02-20",
+   "unitsLast90d": 0,
+   "revenueLast90d": 0.0
+  },
+  {
+   "product": "Plash Pilates Credit",
+   "units": 2,
+   "revenue": 1260.0,
+   "avgRealisedPrice": 630.0,
+   "discountGiven": 0.0,
+   "firstSale": "2026-09-25",
+   "lastSale": "2026-09-25",
+   "unitsLast90d": 2,
+   "revenueLast90d": 1260.0
+  },
+  {
+   "product": "Money Credits",
+   "units": 2,
+   "revenue": 834.0,
+   "avgRealisedPrice": 417.0,
+   "discountGiven": 0.0,
+   "firstSale": "2025-05-13",
+   "lastSale": "2026-07-06",
+   "unitsLast90d": 0,
+   "revenueLast90d": 0.0
+  },
+  {
+   "product": "Test",
+   "units": 1,
+   "revenue": 1.0,
+   "avgRealisedPrice": 1.0,
+   "discountGiven": 0.0,
+   "firstSale": "2023-12-28",
+   "lastSale": "2023-12-28",
+   "unitsLast90d": 0,
+   "revenueLast90d": 0.0
+  }
+ ],
+ "discountCodes": [
+  {
+   "code": "10OFF",
+   "uses": 61,
+   "revenue": 1112094.9,
+   "discountGiven": 108725.0,
+   "impliedDepthPct": 8.9,
+   "firstUse": "2024-07-17",
+   "lastUse": "2026-09-29",
+   "topProducts": [
+    "Studio 1 Month Unlimited",
+    "Studio 3 Month Unlimited",
+    "Studio 8 Class Package"
+   ]
+  },
+  {
+   "code": "NC15OFF",
+   "uses": 65,
+   "revenue": 951128.75,
+   "discountGiven": 143130.0,
+   "impliedDepthPct": 13.1,
+   "firstUse": "2024-07-01",
+   "lastUse": "2026-01-02",
+   "topProducts": [
+    "Studio 1 Month Unlimited",
+    "Studio 10 Single Class Package",
+    "Studio 12 Class Package"
+   ]
+  },
+  {
+   "code": "VDAY50!",
+   "uses": 62,
+   "revenue": 693847.5,
+   "discountGiven": 402350.0,
+   "impliedDepthPct": 36.7,
+   "firstUse": "2025-02-06",
+   "lastUse": "2026-03-02",
+   "topProducts": [
+    "Studio 1 Month Unlimited",
+    "Studio 12 Class Package"
+   ]
+  },
+  {
+   "code": "3M20OFF",
+   "uses": 13,
+   "revenue": 493334.4,
+   "discountGiven": 104520.0,
+   "impliedDepthPct": 17.5,
+   "firstUse": "2025-02-20",
+   "lastUse": "2025-06-19",
+   "topProducts": [
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "15OFF",
+   "uses": 10,
+   "revenue": 456444.9,
+   "discountGiven": 73072.5,
+   "impliedDepthPct": 13.8,
+   "firstUse": "2024-02-20",
+   "lastUse": "2026-09-09",
+   "topProducts": [
+    "Studio 3 Month Unlimited",
+    "Studio 6 Month Unlimited",
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "NC10OFF",
+   "uses": 38,
+   "revenue": 396455.4,
+   "discountGiven": 39400.0,
+   "impliedDepthPct": 9.0,
+   "firstUse": "2024-08-26",
+   "lastUse": "2026-09-01",
+   "topProducts": [
+    "Studio 8 Class Package",
+    "Studio 1 Month Unlimited",
+    "Studio 10 Single Class Package"
+   ]
+  },
+  {
+   "code": "1M@10K",
+   "uses": 29,
+   "revenue": 342199.71,
+   "discountGiven": 85550.29,
+   "impliedDepthPct": 20.0,
+   "firstUse": "2024-02-01",
+   "lastUse": "2024-05-31",
+   "topProducts": [
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "HC10",
+   "uses": 25,
+   "revenue": 305998.2,
+   "discountGiven": 29718.1,
+   "impliedDepthPct": 8.9,
+   "firstUse": "2023-12-25",
+   "lastUse": "2026-09-05",
+   "topProducts": [
+    "Studio 8 Class Package",
+    "Studio 1 Month Unlimited",
+    "Studio 10 Single Class Package"
+   ]
+  },
+  {
+   "code": "3M@20",
+   "uses": 8,
+   "revenue": 282067.2,
+   "discountGiven": 59760.0,
+   "impliedDepthPct": 17.5,
+   "firstUse": "2024-04-13",
+   "lastUse": "2024-05-08",
+   "topProducts": [
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "LAUNCH20",
+   "uses": 2,
+   "revenue": 266208.0,
+   "discountGiven": 66552.0,
+   "impliedDepthPct": 20.0,
+   "firstUse": "2023-11-26",
+   "lastUse": "2023-12-01",
+   "topProducts": [
+    "Studio Annual Unlimited"
+   ]
+  },
+  {
+   "code": "ANNUAL25",
+   "uses": 2,
+   "revenue": 234360.0,
+   "discountGiven": 74400.0,
+   "impliedDepthPct": 24.1,
+   "firstUse": "2025-11-26",
+   "lastUse": "2025-12-05",
+   "topProducts": [
+    "Studio Annual Unlimited"
+   ]
+  },
+  {
+   "code": "12M@30",
+   "uses": 2,
+   "revenue": 232276.8,
+   "discountGiven": 89280.0,
+   "impliedDepthPct": 27.8,
+   "firstUse": "2025-09-06",
+   "lastUse": "2025-10-13",
+   "topProducts": [
+    "Studio Annual Unlimited"
+   ]
+  },
+  {
+   "code": "SIN3010OFF",
+   "uses": 8,
+   "revenue": 203175.0,
+   "discountGiven": 21500.0,
+   "impliedDepthPct": 9.6,
+   "firstUse": "2026-04-27",
+   "lastUse": "2026-06-17",
+   "topProducts": [
+    "Studio 3 Month Unlimited",
+    "Studio 1 Month Unlimited",
+    "Studio 12 Class Package"
+   ]
+  },
+  {
+   "code": "6M@25",
+   "uses": 3,
+   "revenue": 197797.5,
+   "discountGiven": 55875.0,
+   "impliedDepthPct": 22.0,
+   "firstUse": "2024-04-16",
+   "lastUse": "2025-04-30",
+   "topProducts": [
+    "Studio 6 Month Unlimited"
+   ]
+  },
+  {
+   "code": "20OFF1M",
+   "uses": 12,
+   "revenue": 157459.2,
+   "discountGiven": 33360.0,
+   "impliedDepthPct": 17.5,
+   "firstUse": "2025-01-24",
+   "lastUse": "2025-05-31",
+   "topProducts": [
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "FS8-3M",
+   "uses": 4,
+   "revenue": 154565.04,
+   "discountGiven": 13595.2,
+   "impliedDepthPct": 8.1,
+   "firstUse": "2026-04-07",
+   "lastUse": "2026-05-01",
+   "topProducts": [
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "STUDENT15",
+   "uses": 8,
+   "revenue": 146191.5,
+   "discountGiven": 24570.0,
+   "impliedDepthPct": 14.4,
+   "firstUse": "2026-05-19",
+   "lastUse": "2026-08-17",
+   "topProducts": [
+    "Studio 1 Month Unlimited",
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "CustomAnnual",
+   "uses": 1,
+   "revenue": 124000.0,
+   "discountGiven": 30704.76,
+   "impliedDepthPct": 19.8,
+   "firstUse": "2026-07-20",
+   "lastUse": "2026-07-20",
+   "topProducts": [
+    "Studio Annual Unlimited"
+   ]
+  },
+  {
+   "code": "FS8-15",
+   "uses": 4,
+   "revenue": 120041.25,
+   "discountGiven": 20175.0,
+   "impliedDepthPct": 14.4,
+   "firstUse": "2026-04-08",
+   "lastUse": "2026-04-27",
+   "topProducts": [
+    "Studio 3 Month Unlimited",
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "CW15OFF",
+   "uses": 3,
+   "revenue": 116519.7,
+   "discountGiven": 18090.0,
+   "impliedDepthPct": 13.4,
+   "firstUse": "2025-09-13",
+   "lastUse": "2025-09-22",
+   "topProducts": [
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "Challenge15",
+   "uses": 3,
+   "revenue": 112386.15,
+   "discountGiven": 16807.5,
+   "impliedDepthPct": 13.0,
+   "firstUse": "2024-10-20",
+   "lastUse": "2024-10-28",
+   "topProducts": [
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "Annvi30",
+   "uses": 1,
+   "revenue": 109368.0,
+   "discountGiven": 44640.0,
+   "impliedDepthPct": 29.0,
+   "firstUse": "2026-04-29",
+   "lastUse": "2026-04-29",
+   "topProducts": [
+    "Studio Annual Unlimited"
+   ]
+  },
+  {
+   "code": "CW10OFF",
+   "uses": 8,
+   "revenue": 106518.6,
+   "discountGiven": 10030.0,
+   "impliedDepthPct": 8.6,
+   "firstUse": "2025-09-13",
+   "lastUse": "2025-09-14",
+   "topProducts": [
+    "Studio 10 Single Class Package",
+    "Studio 1 Month Unlimited",
+    "Studio 12 Class Package"
+   ]
+  },
+  {
+   "code": "NC20OFF",
+   "uses": 7,
+   "revenue": 106105.6,
+   "discountGiven": 22480.0,
+   "impliedDepthPct": 17.5,
+   "firstUse": "2025-05-13",
+   "lastUse": "2025-06-12",
+   "topProducts": [
+    "Studio 1 Month Unlimited",
+    "Studio 8 Class Package",
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "1stAnnvi20",
+   "uses": 3,
+   "revenue": 105775.2,
+   "discountGiven": 22410.0,
+   "impliedDepthPct": 17.5,
+   "firstUse": "2024-11-30",
+   "lastUse": "2024-11-30",
+   "topProducts": [
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "CW20OFF",
+   "uses": 2,
+   "revenue": 103720.8,
+   "discountGiven": 23700.0,
+   "impliedDepthPct": 18.6,
+   "firstUse": "2025-09-13",
+   "lastUse": "2025-09-24",
+   "topProducts": [
+    "Studio 6 Month Unlimited",
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "33OFF",
+   "uses": 9,
+   "revenue": 88006.95,
+   "discountGiven": 123849.0,
+   "impliedDepthPct": 58.5,
+   "firstUse": "2026-05-05",
+   "lastUse": "2026-06-10",
+   "topProducts": [
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "2RENEW10",
+   "uses": 9,
+   "revenue": 87318.0,
+   "discountGiven": 9240.0,
+   "impliedDepthPct": 9.6,
+   "firstUse": "2025-11-05",
+   "lastUse": "2025-11-30",
+   "topProducts": [
+    "Studio 8 Class Package",
+    "Studio 12 Class Package",
+    "Studio 10 Single Class Package"
+   ]
+  },
+  {
+   "code": "15WINBACK",
+   "uses": 5,
+   "revenue": 83002.5,
+   "discountGiven": 13950.0,
+   "impliedDepthPct": 14.4,
+   "firstUse": "2026-05-22",
+   "lastUse": "2026-08-19",
+   "topProducts": [
+    "Studio 1 Month Unlimited",
+    "Studio 12 Class Package",
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "FS8-1M",
+   "uses": 6,
+   "revenue": 81900.0,
+   "discountGiven": 5400.0,
+   "impliedDepthPct": 6.2,
+   "firstUse": "2026-04-07",
+   "lastUse": "2026-04-22",
+   "topProducts": [
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "NC25OFF",
+   "uses": 9,
+   "revenue": 80977.5,
+   "discountGiven": 22875.0,
+   "impliedDepthPct": 22.0,
+   "firstUse": "2025-05-17",
+   "lastUse": "2025-06-09",
+   "topProducts": [
+    "Studio 8 Class Package",
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "SK-15",
+   "uses": 8,
+   "revenue": 80641.2,
+   "discountGiven": 12060.0,
+   "impliedDepthPct": 13.0,
+   "firstUse": "2025-04-08",
+   "lastUse": "2025-05-04",
+   "topProducts": [
+    "Studio 8 Class Package",
+    "Studio 12 Class Package",
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "10PERCENTWBACK",
+   "uses": 7,
+   "revenue": 78906.6,
+   "discountGiven": 8210.0,
+   "impliedDepthPct": 9.4,
+   "firstUse": "2024-07-28",
+   "lastUse": "2026-10-02",
+   "topProducts": [
+    "Studio 1 Month Unlimited",
+    "Studio 12 Class Package",
+    "Studio 8 Class Package"
+   ]
+  },
+  {
+   "code": "2YBACK10",
+   "uses": 4,
+   "revenue": 77395.5,
+   "discountGiven": 8190.0,
+   "impliedDepthPct": 9.6,
+   "firstUse": "2025-11-11",
+   "lastUse": "2025-11-29",
+   "topProducts": [
+    "Studio 1 Month Unlimited",
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "KK-15",
+   "uses": 6,
+   "revenue": 75225.0,
+   "discountGiven": 11250.0,
+   "impliedDepthPct": 13.0,
+   "firstUse": "2025-04-21",
+   "lastUse": "2025-05-08",
+   "topProducts": [
+    "Studio 1 Month Unlimited",
+    "Studio 12 Class Package",
+    "Studio 8 Class Package"
+   ]
+  },
+  {
+   "code": "3M25OFF",
+   "uses": 2,
+   "revenue": 71154.0,
+   "discountGiven": 20100.0,
+   "impliedDepthPct": 22.0,
+   "firstUse": "2025-04-28",
+   "lastUse": "2025-04-29",
+   "topProducts": [
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "EOY15",
+   "uses": 6,
+   "revenue": 67501.9,
+   "discountGiven": 10095.0,
+   "impliedDepthPct": 13.0,
+   "firstUse": "2024-12-30",
+   "lastUse": "2024-12-31",
+   "topProducts": [
+    "Studio 12 Class Package",
+    "Studio 1 Month Unlimited",
+    "Studio 8 Class Package"
+   ]
+  },
+  {
+   "code": "LAUNCH12",
+   "uses": 4,
+   "revenue": 62148.24,
+   "discountGiven": 8474.76,
+   "impliedDepthPct": 12.0,
+   "firstUse": "2023-11-26",
+   "lastUse": "2023-12-01",
+   "topProducts": [
+    "Studio 8 Class Package",
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "GOLDENHOUR",
+   "uses": 5,
+   "revenue": 49533.75,
+   "discountGiven": 8325.0,
+   "impliedDepthPct": 14.4,
+   "firstUse": "2025-11-15",
+   "lastUse": "2025-11-22",
+   "topProducts": [
+    "Studio 8 Class Package",
+    "Studio 12 Class Package",
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "SHRU10",
+   "uses": 5,
+   "revenue": 48852.0,
+   "discountGiven": 4600.0,
+   "impliedDepthPct": 8.6,
+   "firstUse": "2025-04-02",
+   "lastUse": "2025-04-16",
+   "topProducts": [
+    "Studio 10 Single Class Package",
+    "Session",
+    "Studio 8 Class Package"
+   ]
+  },
+  {
+   "code": "FC15OFF",
+   "uses": 2,
+   "revenue": 48284.25,
+   "discountGiven": 8115.0,
+   "impliedDepthPct": 14.4,
+   "firstUse": "2026-04-30",
+   "lastUse": "2026-04-30",
+   "topProducts": [
+    "Studio 1 Month Unlimited",
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "Diwali5",
+   "uses": 5,
+   "revenue": 46297.3,
+   "discountGiven": 2065.0,
+   "impliedDepthPct": 4.3,
+   "firstUse": "2024-10-27",
+   "lastUse": "2024-11-05",
+   "topProducts": [
+    "Studio 8 Class Package",
+    "Studio 12 Class Package"
+   ]
+  },
+  {
+   "code": "8@2WK15",
+   "uses": 1,
+   "revenue": 37462.05,
+   "discountGiven": 5602.5,
+   "impliedDepthPct": 13.0,
+   "firstUse": "2024-03-28",
+   "lastUse": "2024-03-28",
+   "topProducts": [
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "TC20OFF",
+   "uses": 1,
+   "revenue": 33768.0,
+   "discountGiven": 8040.0,
+   "impliedDepthPct": 19.2,
+   "firstUse": "2026-04-18",
+   "lastUse": "2026-04-18",
+   "topProducts": [
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "2YEARS20",
+   "uses": 1,
+   "revenue": 33768.0,
+   "discountGiven": 8040.0,
+   "impliedDepthPct": 19.2,
+   "firstUse": "2025-11-23",
+   "lastUse": "2025-11-23",
+   "topProducts": [
+    "Studio 3 Month Unlimited"
+   ]
+  },
+  {
+   "code": "24OFF",
+   "uses": 3,
+   "revenue": 33276.6,
+   "discountGiven": 10008.0,
+   "impliedDepthPct": 23.1,
+   "firstUse": "2026-01-28",
+   "lastUse": "2026-02-01",
+   "topProducts": [
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "Diwali10",
+   "uses": 2,
+   "revenue": 27505.8,
+   "discountGiven": 2590.0,
+   "impliedDepthPct": 8.6,
+   "firstUse": "2024-11-03",
+   "lastUse": "2024-11-04",
+   "topProducts": [
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "LAUNCH10",
+   "uses": 4,
+   "revenue": 26656.2,
+   "discountGiven": 2961.8,
+   "impliedDepthPct": 10.0,
+   "firstUse": "2023-11-28",
+   "lastUse": "2023-12-01",
+   "topProducts": [
+    "Studio 4 Class Package",
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "18OFF",
+   "uses": 1,
+   "revenue": 25109.22,
+   "discountGiven": 4671.0,
+   "impliedDepthPct": 15.7,
+   "firstUse": "2025-08-22",
+   "lastUse": "2025-08-22",
+   "topProducts": [
+    "Private Class"
+   ]
+  },
+  {
+   "code": "AR15OFF",
+   "uses": 2,
+   "revenue": 24811.5,
+   "discountGiven": 4170.0,
+   "impliedDepthPct": 14.4,
+   "firstUse": "2026-06-22",
+   "lastUse": "2026-07-05",
+   "topProducts": [
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "LAUNCH15",
+   "uses": 2,
+   "revenue": 22667.8,
+   "discountGiven": 4000.2,
+   "impliedDepthPct": 15.0,
+   "firstUse": "2023-11-26",
+   "lastUse": "2023-12-02",
+   "topProducts": [
+    "Studio 12 Class Package"
+   ]
+  },
+  {
+   "code": "EARLYBIRD",
+   "uses": 1,
+   "revenue": 22066.0,
+   "discountGiven": 3300.0,
+   "impliedDepthPct": 13.0,
+   "firstUse": "2025-04-29",
+   "lastUse": "2025-04-29",
+   "topProducts": [
+    "Studio 6 Week Unlimited"
+   ]
+  },
+  {
+   "code": "SIDD10",
+   "uses": 2,
+   "revenue": 21558.6,
+   "discountGiven": 2030.0,
+   "impliedDepthPct": 8.6,
+   "firstUse": "2025-04-05",
+   "lastUse": "2025-04-05",
+   "topProducts": [
+    "Studio 10 Single Class Package",
+    "Studio 8 Class Package"
+   ]
+  },
+  {
+   "code": "NC5OFF",
+   "uses": 2,
+   "revenue": 16558.5,
+   "discountGiven": 830.0,
+   "impliedDepthPct": 4.8,
+   "firstUse": "2025-10-19",
+   "lastUse": "2025-11-03",
+   "topProducts": [
+    "Studio 8 Class Package"
+   ]
+  },
+  {
+   "code": "SD-15",
+   "uses": 1,
+   "revenue": 13941.7,
+   "discountGiven": 2085.0,
+   "impliedDepthPct": 13.0,
+   "firstUse": "2025-04-10",
+   "lastUse": "2025-04-10",
+   "topProducts": [
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "Challenge10",
+   "uses": 1,
+   "revenue": 13752.9,
+   "discountGiven": 1295.0,
+   "impliedDepthPct": 8.6,
+   "firstUse": "2024-10-21",
+   "lastUse": "2024-10-21",
+   "topProducts": [
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "BDAY15OFF",
+   "uses": 1,
+   "revenue": 12988.85,
+   "discountGiven": 1942.5,
+   "impliedDepthPct": 13.0,
+   "firstUse": "2024-11-30",
+   "lastUse": "2024-11-30",
+   "topProducts": [
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "TC10OFF",
+   "uses": 1,
+   "revenue": 11812.5,
+   "discountGiven": 1250.0,
+   "impliedDepthPct": 9.6,
+   "firstUse": "2026-04-18",
+   "lastUse": "2026-04-18",
+   "topProducts": [
+    "Studio 12 Class Package"
+   ]
+  },
+  {
+   "code": "Jul1M@10K",
+   "uses": 1,
+   "revenue": 11799.99,
+   "discountGiven": 2950.01,
+   "impliedDepthPct": 20.0,
+   "firstUse": "2024-06-28",
+   "lastUse": "2024-06-28",
+   "topProducts": [
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "SB302.0",
+   "uses": 1,
+   "revenue": 11676.0,
+   "discountGiven": 2780.0,
+   "impliedDepthPct": 19.2,
+   "firstUse": "2026-02-23",
+   "lastUse": "2026-02-23",
+   "topProducts": [
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "2YBACK15",
+   "uses": 1,
+   "revenue": 11156.25,
+   "discountGiven": 1875.0,
+   "impliedDepthPct": 14.4,
+   "firstUse": "2025-11-08",
+   "lastUse": "2025-11-08",
+   "topProducts": [
+    "Studio 12 Class Package"
+   ]
+  },
+  {
+   "code": "OFF15FC",
+   "uses": 2,
+   "revenue": 11049.0,
+   "discountGiven": 3000.0,
+   "impliedDepthPct": 21.4,
+   "firstUse": "2026-04-08",
+   "lastUse": "2026-04-18",
+   "topProducts": [
+    "Studio 10 Single Class Package",
+    "Retail - Apparel"
+   ]
+  },
+  {
+   "code": "ANNVI10OFF",
+   "uses": 1,
+   "revenue": 7965.0,
+   "discountGiven": 750.0,
+   "impliedDepthPct": 8.6,
+   "firstUse": "2024-04-27",
+   "lastUse": "2024-04-27",
+   "topProducts": [
+    "Studio 8 Class Package"
+   ]
+  },
+  {
+   "code": "1MD",
+   "uses": 1,
+   "revenue": 7034.79,
+   "discountGiven": 7200.2,
+   "impliedDepthPct": 50.6,
+   "firstUse": "2026-10-07",
+   "lastUse": "2026-10-07",
+   "topProducts": [
+    "Studio 1 Month Unlimited"
+   ]
+  },
+  {
+   "code": "CW100OFF",
+   "uses": 4,
+   "revenue": 5192.0,
+   "discountGiven": 400.0,
+   "impliedDepthPct": 7.2,
+   "firstUse": "2025-09-05",
+   "lastUse": "2025-09-11",
+   "topProducts": [
+    "Session"
+   ]
+  },
+  {
+   "code": "CW200OFF",
+   "uses": 2,
+   "revenue": 2360.0,
+   "discountGiven": 400.0,
+   "impliedDepthPct": 14.5,
+   "firstUse": "2025-09-04",
+   "lastUse": "2025-09-05",
+   "topProducts": [
+    "Session"
+   ]
+  },
+  {
+   "code": "RR5KOFF",
+   "uses": 3,
+   "revenue": 242.64,
+   "discountGiven": 15000.0,
+   "impliedDepthPct": 98.4,
+   "firstUse": "2025-03-05",
+   "lastUse": "2025-03-05",
+   "topProducts": [
+    "Retail - Other Retail",
+    "Retail - Apparel"
+   ]
+  }
+ ],
+ "categoryMix": [
+  {
+   "category": "Memberships",
+   "units": 670,
+   "revenue": 13944029.38
+  },
+  {
+   "category": "Class Packages",
+   "units": 982,
+   "revenue": 7015675.24
+  },
+  {
+   "category": "Sessions/Single Classes",
+   "units": 2412,
+   "revenue": 3356881.29
+  },
+  {
+   "category": "Retail",
+   "units": 1893,
+   "revenue": 808358.83
+  },
+  {
+   "category": "Newcomers Special",
+   "units": 230,
+   "revenue": 736557.31
+  },
+  {
+   "category": "Privates",
+   "units": 79,
+   "revenue": 440945.44
+  },
+  {
+   "category": "Others",
+   "units": 4,
+   "revenue": 97617.0
+  },
+  {
+   "category": "Gift Cards",
+   "units": 2,
+   "revenue": 3417.5
+  },
+  {
+   "category": "Money Credits",
+   "units": 2,
+   "revenue": 834.0
+  }
+ ]
+}

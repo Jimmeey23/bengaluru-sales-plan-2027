@@ -1,0 +1,787 @@
+idhostIdcorporateIdlocationIdrevenueLocationIdimportIdexternalIdtaxBracketIdreusableContractAgreementIdtypesubscriptionTypenamepriceInPointspricepriceTypeminimumPricemaximumPricerecommendedPricedurationdurationUnitstartdateenddateactivateOnFirstUseactivationDeadlineInDaysnumberOfEventsmoneyisIntroOfferautoRenewminimumAutoRenewsaisAutomaticallyRenewContractEnabledincludeInitialPeriodInContractCommitmentautoRenewOnDayInMonthkeepOriginalRenewingScheduleAfterUnfreezemaximumAutoRenewsnewPriceAfterRenewalsrenewalsUntilNewPriceincludesOnDemandfreeTrialfreeTrialDurationInDaysfreeTrialEndsAtpaidTrialAmountdisabledtagRestrictionModeisDeletedexcludedEventsincludedCollectionsfeatureddescriptionwelcomeMessagebenefitsusageLimitForSessionsusageLimitForAppointmentscombinedUsageLimitEnabledcombinedUsageLimitisGuestPassEnabledisGuestPassNewCustomersOnlyguestCombinedUsageLimitisSingleBuyincludesAllAppointmentServicesincludesAllOpenAreaVisitTypesorderNumberisUsableForProductsisUsableForCollectionVideosallowAdditionalBookingsisUsableForMembershipscountsAsFreeForPayrollallowPurchaseOnlyAsFirstMembershipForHostusageLimitRenewalEnabledusageLimitRenewalDurationusageLimitRenewalDurationUnitusageLimitRolloverEnabledusageLimitRolloverModeusageLimitRolloverExpirationDurationusageLimitRolloverExpirationDurationUnittaxClassificationCodecreatedAtcreatedBymodifiedAtmodifiedBydeletedAtdeletedByisRestrictedByAgeminEligibleAgemaxEligibleAgecancellationPolicyOverrideEnabledForSessionscancellationPolicyOverrideEnabledForAppointmentscancellationPolicyLateCancellationMinutesForSessionscancellationPolicyLateCancellationMinutesForAppointmentseventCreditsAreShareableWithGuestscontractAgreementcontractAgreementNeedsDetailedReviewautomaticPackageRefillTypejoiningFeeInCurrencyactiveSignupshostNameisSharedByOtherHosttagsorder
+
+651671339053457subscriptionabsolute
+
+Studio Hybrid 1 Month unlimited
+
+17750fixed-price30daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE999FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2026-02-04T06:36:58.814Z13409182026-02-04T12:49:21.701Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruTRUE12608111528339053457package-eventsabsolute
+
+Studio Single Class
+
+1350fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSETRUEFALSEFALSEFALSE0FALSEFALSE2FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2023-09-15T09:38:13.576Z13394882026-01-12T16:31:57.539Z13442437FALSEFALSEFALSEFALSE9Physique 57 BengaluruFALSE128111529339052644package-eventsabsolute
+
+Studio Open Barre Class
+
+0fixed-price14daysTRUE1TRUEFALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body.  
+  
+  
+  
+Fill in your info below &amp; make sure to leave us your contact details to sign up for our Free Trial. Our team will reach out to find the perfect class to get you well on your way to the Best. You. Ever!
+
+FALSEFALSEFALSE0TRUEFALSE3FALSEFALSEFALSEFALSEFALSETRUEFALSEFALSE2023-09-15T09:39:24.338Z13394882025-10-02T14:03:42.874Z13442437FALSEFALSEFALSEFALSE127Physique 57 BengaluruFALSE192111530339053457package-eventsabsolute
+
+Studio 4 Class Package
+
+4450fixed-price14daysTRUE4FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSETRUE
+
+Whether you're a fitness enthusiast or just starting out, Physique 57's 4 Class Package is the perfect way to achieve the results you've been dreaming of! With our expert instructors and supportive community, you'll have the guidance and accountability you need to stay motivated and committed to your fitness goals.  
+  
+  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit.  
+  
+  
+  
+FREEZE POLICY :  
+  
+This package does not include any freezes.
+
+FALSEFALSEFALSE0FALSEFALSE4FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2023-09-15T09:41:28.091Z13394882025-10-02T04:25:54.214Z13442437FALSEFALSEFALSEFALSE7Physique 57 BengaluruFALSE256111531339053457package-eventsabsolute
+
+Studio Newcomers 2 Week Unlimited Membership
+
+5750fixed-price14daysTRUE999FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSE5FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2023-09-15T09:42:42.537Z13394882025-09-22T07:30:20.529Z13442437FALSEFALSEFALSEFALSE1Physique 57 BengaluruFALSE320111532339053457package-eventsabsolute
+
+Studio 2 Week Unlimited
+
+7200fixed-price14daysTRUE999FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSETRUE
+
+Whether you're a fitness enthusiast or just starting out, Physique 57's 2 Week Unlimited Membership is the perfect way to achieve the results you've been dreaming of! With our expert instructors and supportive community, you'll have the guidance and accountability you need to stay motivated and committed to your fitness goals.  
+  
+  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit.  
+  
+  
+  
+FREEZE POLICY :  
+  
+This package does not include any freezes.
+
+FALSEFALSEFALSE0FALSEFALSE6FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2023-09-15T09:46:29.486Z13394882026-01-12T16:32:11.280Z13442437FALSEFALSEFALSEFALSE3Physique 57 BengaluruFALSE384111533339053457subscriptionabsolute
+
+Studio 1 Month Unlimited Membership
+
+13900fixed-price1monthsTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSETRUE
+
+Whether you're a fitness enthusiast or just starting out, Physique 57's 1 Month Unlimited Membership is the perfect way to achieve the results you've been dreaming of! With our expert instructors and supportive community, you'll have the guidance and accountability you need to stay motivated and committed to your fitness goals.  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit.  
+  
+FREEZE POLICY :  
+Clients are allowed 1 freeze within this package. Freeze Duration can range from 1-30 days. To request a freeze, clients must email [info@physique57bengaluru.com](mailto:info@physique57bengaluru.com) in advance of the freeze start date.
+
+FALSEFALSEFALSE0FALSEFALSE7FALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2023-09-15T09:48:07.127Z13394882025-10-02T04:26:07.079Z13442437FALSEFALSEFALSEFALSE14Physique 57 BengaluruFALSE448111534339053457subscriptionabsolute
+
+Studio 3 Month Unlimited Membership
+
+40200fixed-price3monthsTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSETRUE
+
+Whether you're a fitness enthusiast or just starting out, Physique 57's 3 Month Unlimited Membership is the perfect way to achieve the results you've been dreaming of! With our expert instructors and supportive community, you'll have the guidance and accountability you need to stay motivated and committed to your fitness goals.  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit.  
+  
+FREEZE POLICY :  
+Clients are allowed 3 freezes within this package. Each Freeze Duration can range from 1-30 days. To request a freeze, clients must email [info@physique57bengaluru.com](mailto:info@physique57bengaluru.com) in advance of the freeze start date.
+
+FALSEFALSEFALSE0FALSEFALSE8FALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2023-09-15T09:49:06.605Z13394882025-10-02T04:26:08.819Z13442437FALSEFALSEFALSEFALSE13Physique 57 BengaluruFALSE512111535339053457subscriptionabsolute
+
+Studio Annual Unlimited Membership
+
+148800fixed-price1yearsTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSETRUE
+
+Whether you're a fitness enthusiast or just starting out, Physique 57's Annual Unlimited Membership is the perfect way to achieve the results you've been dreaming of! With our expert instructors and supportive community, you'll have the guidance and accountability you need to stay motivated and committed to your fitness goals. Plus, Annual Members have a variety of perks added to their membership:  
+  
+2 free private classes,  
+One on One trainer catch ups (once every quarter to discuss progress),  
+10% discount on all retail products,  
+3 guest passes,  
+Free workshop access &amp; Priority booking for workshops.  
+  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit.  
+  
+FREEZE POLICY :  
+Clients are allowed 12 freezes within this package. Each Freeze Duration can range from 1-30 days. To request a freeze, clients must email [info@physique57bengaluru.com](mailto:info@physique57bengaluru.com) in advance of the freeze start date.
+
+FALSETRUEFALSE3FALSEFALSE9FALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2023-09-15T09:50:07.912Z13394882025-12-19T07:12:11.032Z13442437FALSEFALSEFALSEFALSE6Physique 57 BengaluruFALSE576111536339053457subscriptionabsolute
+
+Studio 6 Month Unlimited Membership
+
+78300fixed-price6monthsTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSETRUE
+
+Whether you're a fitness enthusiast or just starting out, Physique 57's 6 Month Unlimited Membership is the perfect way to achieve the results you've been dreaming of! With our expert instructors and supportive community, you'll have the guidance and accountability you need to stay motivated and committed to your fitness goals.  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit.  
+  
+FREEZE POLICY :  
+Clients are allowed 6 freezes within this package. Each Freeze Duration can range from 1-30 days. To request a freeze, clients must email [info@physique57bengaluru.com](mailto:info@physique57bengaluru.com) in advance of the freeze start date.
+
+FALSEFALSEFALSE0FALSEFALSE10FALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2023-09-15T09:51:36.818Z13394882025-10-02T04:26:11.149Z13442437FALSEFALSEFALSEFALSE1Physique 57 BengaluruFALSE640111537339053457subscriptionabsolute
+
+Studio 8 Class Package
+
+8300fixed-price1monthsTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSETRUE
+
+Whether you're a fitness enthusiast or just starting out, Physique 57's 8 Class Package is the perfect way to achieve the results you've been dreaming of! With our expert instructors and supportive community, you'll have the guidance and accountability you need to stay motivated and committed to your fitness goals.  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit.  
+  
+FREEZE POLICY :  
+Clients are allowed 1 freeze within this package. Freeze Duration can range from 1-30 days. To request a freeze, clients must email [info@physique57bengaluru.com](mailto:info@physique57bengaluru.com) in advance of the freeze start date.
+
+80FALSEFALSEFALSE0FALSEFALSE11FALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2023-09-15T09:52:40.466Z13394882025-10-02T04:26:12.047Z13442437FALSEFALSEFALSEFALSE23Physique 57 BengaluruFALSE704111538339053457subscriptionabsolute
+
+Studio 12 Class Package
+
+12500fixed-price45daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSETRUE
+
+Whether you're a fitness enthusiast or just starting out, Physique 57's 12 Class Package is the perfect way to achieve the results you've been dreaming of! With our expert instructors and supportive community, you'll have the guidance and accountability you need to stay motivated and committed to your fitness goals.  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit.  
+  
+FREEZE POLICY :  
+Clients are allowed 1 freeze within this package. Freeze Duration can range from 1-30 days. To request a freeze, clients must email [info@physique57bengaluru.com](mailto:info@physique57bengaluru.com) in advance of the freeze start date.
+
+120FALSEFALSEFALSE0FALSEFALSE12FALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2023-09-15T09:53:40.246Z13394882025-10-02T04:26:13.605Z13442437FALSEFALSEFALSEFALSE15Physique 57 BengaluruFALSE768111543339052644package-eventsabsolute
+
+Hosted Class 2 Week Unlimited Membership
+
+7200fixed-price14daysTRUE999FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSE13FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2023-09-15T10:59:05.789Z13409182024-12-31T22:16:30.173Z13524385FALSEFALSEFALSE0Physique 57 BengaluruFALSE832136210339052644package-eventsabsolute
+
+Studio Free Influencer Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body.  
+  
+  
+  
+Fill in your info below &amp; make sure to leave us your contact details to sign up for our Free Trial. Our team will reach out to find the perfect class to get you well on your way to the Best. You. Ever!
+
+FALSEFALSEFALSE0FALSEFALSE14FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2023-11-24T06:16:35.541Z15609382024-12-31T21:24:31.008Z13524385FALSEFALSEFALSE6Physique 57 BengaluruFALSE896136452339052644package-eventsabsoluteTest1fixed-price7daysFALSE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSE15FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2023-11-26T06:51:39.388Z13394882024-12-31T21:24:31.331Z13524385FALSEFALSEFALSE0Physique 57 BengaluruFALSE960138426339053457package-eventsabsolute
+
+Studio 20 Single Class Pack
+
+24000fixed-price105daysTRUE20FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Introducing our Studio 20 Class Package – a unique offering tailored to provide our members with unparalleled flexibility. This exclusive package extends the validity to a generous 105 days, empowering members to complete their 20 classes at their own pace. With an emphasis on accommodating diverse schedules, this package is designed to meet the needs of those seeking a more flexible and personalized fitness journey. Embrace the freedom to enjoy your classes at a comfortable rhythm over an extended period, making fitness more accessible and convenient than ever before.  
+  
+  
+  
+FREEZE POLICY :  
+  
+Clients are allowed 3 freezes within this package. Freeze Duration can range from 1-30 days. To request a freeze, clients must email [info@physique57bengaluru.com](mailto:info@physique57bengaluru.com) in advance of the freeze start date.
+
+FALSEFALSEFALSE0FALSEFALSE16FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2023-12-02T07:22:38.603Z15609382025-09-22T07:44:08.871Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE1024138996339052644package-eventsabsolute
+
+Influencer Class (Tahlia)
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body.  
+  
+  
+  
+Fill in your info below &amp; make sure to leave us your contact details to sign up for our Free Trial. Our team will reach out to find the perfect class to get you well on your way to the Best. You. Ever!
+
+FALSEFALSEFALSE0TRUEFALSE17FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2023-12-06T17:18:08.948Z13409182024-12-31T21:24:31.943Z13524385FALSEFALSEFALSE1Physique 57 BengaluruFALSE1088152201339052644package-eventsabsolute
+
+Anmol Bajaj Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body. Fill in your info below &amp; make sure to leave us your contact details to sign up for our Free Trial. Our team will reach out to find the perfect class to get you well on your way to the Best. You. Ever!
+
+FALSEFALSEFALSE0TRUEFALSE19FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-01-24T08:24:16.139Z134424372024-12-31T21:24:32.560Z13524385FALSEFALSEFALSE2Physique 57 BengaluruFALSE1216159880339053457subscriptionabsolute
+
+Studio 10 Single Class Pack
+
+12000fixed-price70daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE
+
+Introducing our Studio 10 Class Package – a unique offering tailored to provide our members with unparalleled flexibility. This exclusive package extends the validity to a generous 70 days, empowering members to complete their 10 classes at their own pace. With an emphasis on accommodating diverse schedules, this package is designed to meet the needs of those seeking a more flexible and personalized fitness journey. Embrace the freedom to enjoy your classes at a comfortable rhythm over an extended period, making fitness more accessible and convenient than ever before.  
+  
+FREEZE POLICY :  
+Clients are allowed 2 freezes within this package. Freeze Duration can range from 1-30 days. To request a freeze, clients must email [info@physique57bengaluru.com](mailto:info@physique57bengaluru.com) in advance of the freeze start date.
+
+10FALSEFALSEFALSE0FALSEFALSE22FALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2024-02-06T06:05:07.252Z15609382025-09-22T07:26:16.165Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE1280159882339053457subscriptionabsolute
+
+Studio 30 Single Class Pack
+
+36000fixed-price140daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE
+
+Introducing our Studio 30 Class Package – a unique offering tailored to provide our members with unparalleled flexibility. This exclusive package extends the validity to a generous 140 days, empowering members to complete their 30 classes at their own pace. With an emphasis on accommodating diverse schedules, this package is designed to meet the needs of those seeking a more flexible and personalized fitness journey. Embrace the freedom to enjoy your classes at a comfortable rhythm over an extended period, making fitness more accessible and convenient than ever before.  
+  
+FREEZE POLICY :  
+Clients are allowed 3 freezes within this package. Freeze Duration can range from 1-30 days. To request a freeze, clients must email [info@physique57bengaluru.com](mailto:info@physique57bengaluru.com) in advance of the freeze start date.
+
+30FALSEFALSEFALSE0FALSEFALSE23FALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2024-02-06T06:11:40.779Z15609382025-09-22T07:26:29.226Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE1344159883339053457subscriptionabsolute
+
+Studio 20 Single Class Pack
+
+24000fixed-price105daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE
+
+Introducing our Studio 20 Class Package – a unique offering tailored to provide our members with unparalleled flexibility. This exclusive package extends the validity to a generous 105 days, empowering members to complete their 20 classes at their own pace. With an emphasis on accommodating diverse schedules, this package is designed to meet the needs of those seeking a more flexible and personalized fitness journey. Embrace the freedom to enjoy your classes at a comfortable rhythm over an extended period, making fitness more accessible and convenient than ever before.  
+  
+FREEZE POLICY :  
+Clients are allowed 3 freezes within this package. Freeze Duration can range from 1-30 days. To request a freeze, clients must email [info@physique57bengaluru.com](mailto:info@physique57bengaluru.com) in advance of the freeze start date.
+
+20FALSEFALSEFALSE0FALSEFALSE24FALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2024-02-06T06:14:14.736Z15609382025-09-22T07:26:42.650Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE1408162578339052644package-eventsabsolute
+
+Saksha Narayan Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body.  
+  
+  
+  
+Fill in your info below &amp; make sure to leave us your contact details to sign up for our Free Trial. Our team will reach out to find the perfect class to get you well on your way to the Best. You. Ever!
+
+FALSEFALSEFALSE0TRUEFALSE26FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-02-09T11:08:34.087Z134424372024-12-31T21:24:34.052Z13524385FALSEFALSEFALSE4Physique 57 BengaluruFALSE1536162579339052644package-eventsabsolute
+
+Akshitha Basavaraju Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body.  
+  
+  
+  
+Fill in your info below &amp; make sure to leave us your contact details to sign up for our Free Trial. Our team will reach out to find the perfect class to get you well on your way to the Best. You. Ever!
+
+FALSEFALSEFALSE0TRUEFALSE27FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-02-09T11:10:24.597Z134424372024-12-31T21:24:34.365Z13524385FALSEFALSEFALSE4Physique 57 BengaluruFALSE1600162580339052644package-eventsabsolute
+
+Dhanya Ramkumar Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body.  
+  
+  
+  
+Fill in your info below &amp; make sure to leave us your contact details to sign up for our Free Trial. Our team will reach out to find the perfect class to get you well on your way to the Best. You. Ever!
+
+FALSEFALSEFALSE0TRUEFALSE28FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-02-09T11:13:15.826Z134424372024-12-31T21:24:34.680Z13524385FALSEFALSEFALSE2Physique 57 BengaluruFALSE1664164479339052644package-eventsabsolute
+
+Nilu Thapa Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body. Fill in your info below &amp; make sure to leave us your contact details to sign up for our Free Trial. Our team will reach out to find the perfect class to get you well on your way to the Best. You. Ever!
+
+FALSEFALSEFALSE0TRUEFALSE31FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-02-15T07:11:48.332Z134424372024-12-31T21:24:35.603Z13524385FALSEFALSEFALSE1Physique 57 BengaluruFALSE1856165509339052644package-eventsabsolute
+
+Studio Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body.
+
+FALSEFALSEFALSE0FALSEFALSE32FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-02-22T09:47:55.866Z134424372024-12-31T21:24:35.923Z13524385FALSEFALSEFALSE26Physique 57 BengaluruFALSE1920169900339052644package-eventsabsolute
+
+Women's Day Complimentary Class
+
+0fixed-price1daysFALSE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0TRUEFALSE35FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-03-08T02:14:31.625Z13394882024-12-31T21:24:36.856Z13524385FALSEFALSEFALSE0Physique 57 BengaluruFALSE2112173094339053457package-eventsabsolute
+
+Studio Private Class
+
+3925fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSE36FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-03-19T09:54:05.720Z13409182026-07-03T08:03:01.054Z13442437FALSEFALSEFALSEFALSE6Physique 57 BengaluruFALSE2176210443339052644package-eventsabsolute
+
+Bhavana Rameskumar Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body. Fill in your info below &amp; make sure to leave us your contact details to sign up for our Free Trial. Our team will reach out to find the perfect class to get you well on your way to the Best. You. Ever!
+
+FALSEFALSEFALSE0TRUEFALSE40FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-05-31T06:17:19.355Z134424372024-12-31T21:24:39.677Z13524385FALSEFALSEFALSE2Physique 57 BengaluruFALSE2432210447339052644package-eventsabsolute
+
+Shraddha &amp; Khushi Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body. Fill in your info below &amp; make sure to leave us your contact details to sign up for our Free Trial. Our team will reach out to find the perfect class to get you well on your way to the Best. You. Ever!
+
+FALSEFALSEFALSE0TRUEFALSE41FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-05-31T06:20:06.731Z134424372024-12-31T21:24:39.984Z13524385FALSEFALSEFALSE2Physique 57 BengaluruFALSE2496210452339052644package-eventsabsolute
+
+Aakansha &amp; Pooja Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body. Fill in your info below &amp; make sure to leave us your contact details to sign up for our Free Trial. Our team will reach out to find the perfect class to get you well on your way to the Best. You. Ever!
+
+FALSEFALSEFALSE0TRUEFALSE42FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-05-31T06:35:10.846Z134424372024-12-31T21:24:40.857Z13524385FALSEFALSEFALSE1Physique 57 BengaluruFALSE2560212690339052644package-eventsabsolute
+
+Sisters in Sweat Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body. Fill in your info below &amp; make sure to leave us your contact details to sign up for our Free Trial. Our team will reach out to find the perfect class to get you well on your way to the Best. You. Ever!
+
+FALSEFALSEFALSE0TRUEFALSE43FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-06-10T06:46:29.577Z13409182024-12-31T21:24:41.177Z13524385FALSEFALSEFALSE4Physique 57 BengaluruFALSE2624225167339052644package-eventsabsolute
+
+Studio Staff Family / Friend
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body.
+
+FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-06-21T10:05:06.880Z134424372024-12-31T21:24:41.523Z13524385FALSEFALSEFALSE0Physique 57 BengaluruFALSE2688232348339052644package-eventsabsolute
+
+Scoop Sign Up link
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body.
+
+FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-07-02T13:31:12.369Z134424372025-01-02T03:42:11.600Z13442437FALSEFALSEFALSE13Physique 57 BengaluruFALSE2752234578339052644package-eventsabsolute
+
+Studio 3 Class Complimentary Package
+
+0fixed-price10daysTRUE3FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-07-09T07:02:48.726Z15609382025-05-29T13:04:08.484Z13442437FALSEFALSEFALSE0Physique 57 BengaluruFALSE2816236906339052644package-eventsabsolute
+
+Sunrise Package
+
+0fixed-price10daysTRUE3FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-07-16T10:35:31.334Z134424372024-12-31T21:24:47.976Z13524385FALSEFALSEFALSE0Physique 57 BengaluruFALSE2944237643339053457subscriptionabsolute
+
+Studio 30 Private Class Package
+
+117750fixed-price210daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE30FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2024-07-17T13:44:14.875Z15609382025-09-22T07:27:17.982Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE3008267288339052644package-eventsabsolute
+
+Karthika Anand Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body. Fill in your info below &amp; make sure to leave us your contact details to sign up for our Free Trial. Our team will reach out to find the perfect class to get you well on your way to the Best. You. Ever!
+
+FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-09-16T05:05:50.952Z134424372024-12-31T21:24:48.787Z13524385FALSEFALSEFALSE5Physique 57 BengaluruFALSE3072301969339052644package-eventsabsolute
+
+Recovery Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-11-08T07:13:21.081Z134424372024-12-31T21:24:49.133Z13524385FALSEFALSEFALSE0Physique 57 BengaluruFALSE3136302236339052644package-eventsabsolute
+
+1st Anniversary Sign up link
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body.
+
+FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-11-09T05:14:22.675Z134424372024-12-31T21:24:49.457Z13524385FALSEFALSEFALSE10Physique 57 BengaluruFALSE3200302239339053457package-eventsabsolute
+
+Studio Newcomer 2 for 1
+
+1350fixed-price7daysTRUE2FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSETRUEFALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-11-09T06:22:44.800Z134424372026-05-16T08:35:05.432Z13442437FALSEFALSEFALSEFALSE3Physique 57 BengaluruFALSE3392311892339052644package-eventsabsolute
+
+Protima Tiwari Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body.
+
+FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-11-26T08:25:19.070Z134424372024-12-31T21:24:50.769Z13524385FALSEFALSEFALSE3Physique 57 BengaluruFALSE3456327832339052644package-eventsabsolute
+
+Anniversary Special: 45 minutes Semi Private
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2024-12-22T08:32:32.336Z134424372024-12-31T21:24:51.872Z13524385FALSEFALSEFALSE0Physique 57 BengaluruFALSE3648393946339052644subscriptionabsolutetest10000fixed-price60daysFALSEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE00FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2025-03-13T08:50:41.390Z13663419
+
+2025-03-13T08:50:41.390Z
+
+FALSEFALSEFALSE0Physique 57 BengaluruFALSE3776395193339053457subscriptionabsolute
+
+New Studio 10 Single Class Pack
+
+12000fixed-price90daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSETRUE
+
+Introducing our NEW Studio 10 Class Package – a unique offering tailored to provide our members with unparalleled flexibility. This exclusive package extends the validity to a generous 90 days, empowering members to complete their 10 classes at their own pace. With an emphasis on accommodating diverse schedules, this package is designed to meet the needs of those seeking a more flexible and personalized fitness journey. Embrace the freedom to enjoy your classes at a comfortable rhythm over an extended period, making fitness more accessible and convenient than ever before
+
+10FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2025-03-18T10:17:48.010Z134424372025-10-02T04:26:28.228Z13442437FALSEFALSEFALSEFALSE13Physique 57 BengaluruFALSE3840415305339052644subscriptionabsolute
+
+Summer Bootcamp - Studio 6 Week Unlimited
+
+22000fixed-price42daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE
+
+Summer Bootcamp is a 6-week program built to sculpt, strengthen and completely transform how you feel — inside and out. Here’s what you’ll receive:  
+  
+•⁠ ⁠Workout plan tailored to your goals  
+•⁠ ⁠Nutrition guide crafted by our in-house expert  
+•⁠ ⁠Access to our instructors &amp; expert for any questions  
+•⁠ ⁠Bi-weekly video check-ins to track your progress  
+•⁠ ⁠Recovery strategies, delicious recipes, and exclusive weekly workshops  
+  
+It’s everything you need to stay consistent, motivated and supported - plus the extra push we all need sometimes.  
+  
+FREEZE POLICY : Clients are allowed 1 freeze within this package. Freeze Duration can range from 1-30 days. To request a freeze, clients must email [info@physique57bengaluru.com](mailto:info@physique57bengaluru.com) in advance of the freeze start date.
+
+99990FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2025-04-25T10:18:49.452Z134424372025-04-29T11:04:39.562Z1339488FALSEFALSEFALSE0Physique 57 BengaluruFALSE3904426898339053457package-eventsabsolute
+
+Kickstarter Pack - 5 classes in 10 days
+
+4900fixed-price10daysTRUE5FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+The ideal newcomer package with 5 credits to be completed in 10 days!
+
+FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2025-05-12T09:54:31.051Z134424372025-09-22T08:00:14.224Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE3968426901339053457subscriptionabsolute
+
+Newcomer 8 Class Package
+
+8300fixed-price60daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE
+
+Whether you're a fitness enthusiast or just starting out, Physique 57's Newcomer 8 Class Package is the perfect way to achieve the results you've been dreaming of with a validity period of 60 days! With our expert instructors and supportive community, you'll have the guidance and accountability you need to stay motivated and committed to your fitness goals.  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit.
+
+FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2025-05-12T09:58:43.089Z134424372025-09-22T07:28:09.125Z13442437FALSEFALSEFALSEFALSE1Physique 57 BengaluruFALSE403245566233905package-eventsabsolute
+
+ByTwo Sign Up Link
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are designed to sculpt muscle, burn fat and transform your entire body.
+
+FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2025-06-20T10:06:25.897Z13442437
+
+2025-06-20T10:06:25.897Z
+
+FALSEFALSEFALSE1Physique 57 BengaluruFALSE4096498632339053457subscriptionabsolute
+
+6 Private Classes &amp; 2 Studio Single Classes
+
+25950fixed-price30daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE
+
+Whether you’re just starting out or looking to take your training to the next level, our 6 Private Classes + 2 Studio Classes Membership gives you the best of both worlds. Enjoy personalised attention in private sessions tailored to your goals, while also experiencing the energy and motivation of our studio community. With expert guidance and a supportive environment, you’ll stay consistent, confident and on track to achieve lasting results.  
+  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit.
+
+26FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2025-08-21T09:03:07.413Z134424372025-09-22T07:28:25.597Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE4160523700339053457subscriptionabsolute
+
+Studio 4 Private Class Package
+
+11000fixed-price30daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE4FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2025-09-08T06:31:44.026Z134424372025-09-22T07:28:55.933Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE4224548528339053457package-eventsabsolute
+
+Copper + Cloves Single Class Package
+
+900fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSETRUE
+
+Copper + Cloves Single Class Package will give you access to any 1 of our classes at the Studio by Copper + Cloves, Indiranagar.  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit. VALIDITY: This package is valid for 7 days only.
+
+FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2025-10-01T12:58:38.264Z134424372025-12-15T09:51:07.149Z13442437FALSEFALSEFALSEFALSE3Physique 57 BengaluruFALSE4288548529339053457package-eventsabsolute
+
+Copper + Cloves Credit
+
+450fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2025-10-01T13:01:21.405Z13442437
+
+2025-10-01T13:01:21.405Z
+
+FALSEFALSEFALSEFALSE6Physique 57 BengaluruFALSE2025-07-15T05:34:31.408Z|13663419|2025-10-01T13:00:18.488Z|13442437|null|null|137949|33905|null|the Studio by Copper + Cloves |session|membership|false|null|null|false435254914933905package-eventsabsolute
+
+Copper + Cloves Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2025-10-02T12:02:23.829Z13442437
+
+2025-10-02T12:02:23.829Z
+
+FALSEFALSEFALSEFALSE11Physique 57 BengaluruFALSE2025-07-15T05:34:31.408Z|13663419|2025-10-01T13:00:18.488Z|13442437|null|null|137949|33905|null|the Studio by Copper + Cloves |session|membership|false|null|null|false4416550996339053457package-eventsabsolute
+
+Copper + Cloves Free Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2025-10-06T13:41:32.422Z134424372025-10-06T14:13:21.908Z13442437FALSEFALSEFALSEFALSE12Physique 57 BengaluruFALSE2025-07-15T05:34:31.408Z|13663419|2025-10-01T13:00:18.488Z|13442437|null|null|137949|33905|null|the Studio by Copper + Cloves |session|membership|false|null|null|false4480555182339053457subscriptionabsolute
+
+Copper + Cloves 10 Class Pack
+
+8100fixed-price90daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSETRUE
+
+Introducing our Copper + Cloves 10 Class Package – a unique offering tailored to provide our members with unparalleled flexibility. This package extends the validity to a generous 90 days, empowering members to complete their 10 classes at their own pace.  
+  
+Please note - this package is only useable at the Studio by Copper + Cloves.  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit. VALIDITY: This package is valid for90 days.
+
+10FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2025-10-14T08:59:57.939Z134424372025-10-27T06:43:32.127Z13442437FALSEFALSEFALSEFALSE8Physique 57 BengaluruFALSE2025-07-15T05:34:31.408Z|13663419|2025-10-01T13:00:18.488Z|13442437|null|null|137949|33905|null|the Studio by Copper + Cloves |session|membership|false|null|null|false4544563318339053457subscriptionabsolute
+
+Anniversary Starter Pack
+
+12500fixed-price45daysFALSEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE
+
+Whether you're a fitness enthusiast or just starting out, Physique 57's Anniversary Starter Pack - 12 Class Package + 2 complimentary classes, is the perfect way to achieve the results you've been dreaming of! With our expert instructors and supportive community, you'll have the guidance and accountability you need to stay motivated and committed to your fitness goals. LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit. FREEZE POLICY : Clients are allowed 1 freeze within this package. Freeze Duration can range from 1-30 days. To request a freeze, clients must email [info@physique57bengaluru.com](mailto:info@physique57bengaluru.com) in advance of the freeze start date.
+
+120FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2025-10-29T08:27:02.739Z134424372025-10-29T08:29:00.065Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE460857817133905package-eventsabsolute
+
+2nd Anniversary Sign Up link
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2025-11-18T12:35:36.362Z13442437
+
+2025-11-18T12:35:36.362Z
+
+FALSEFALSEFALSEFALSE1Physique 57 BengaluruFALSE473658303633905package-eventsabsolute
+
+Studio Referrer Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2025-11-22T04:52:13.951Z136634192026-02-23T05:17:26.062Z13442437FALSEFALSEFALSEFALSE87Physique 57 BengaluruFALSE486458303733905package-eventsabsolute
+
+Studio Complimentary Referral Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2025-11-22T04:52:49.690Z136634192026-05-29T07:40:12.837Z13442437FALSEFALSEFALSEFALSE45Physique 57 BengaluruFALSE4928597491339053457package-eventsabsolute
+
+Festive 5 Package
+
+4450fixed-price14daysTRUE5FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2025-12-13T06:29:23.972Z13442437
+
+2025-12-13T06:29:23.972Z
+
+FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE499262290533905package-eventsabsolute
+
+Peakst8 Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-01-12T07:22:31.225Z13442437
+
+2026-01-12T07:22:31.225Z
+
+FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE5056651671339053457subscriptionabsolute
+
+Studio Hybrid 1 Month unlimited
+
+17750fixed-price30daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE999FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2026-02-04T06:36:58.814Z13409182026-02-04T12:49:21.701Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE5120654210339053457subscriptionabsolute
+
+Self-Investment - 4 month Unlimited membership + 4 private classes
+
+52000fixed-price120daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE4FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2026-02-05T08:06:50.968Z134424372026-02-05T08:08:24.889Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE5248654474339053457package-eventsabsolute
+
+New Client Intro Pack
+
+675fixed-price14daysTRUE1TRUEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Physique 57 is India’s first barre-based workout, designed to target full-body muscle endurance in every class. For fitness novices and professional athletes alike, our classes are crafted to sculpt muscle, burn fat, and transform your entire body.  
+Fill in your information below and purchase our New Client Intro Pack to experience our method at just half the price. Be sure to include your contact details when completing payment, then go ahead and book into the class of your choice and begin your journey to the Best. You. Ever!
+
+FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-02-05T11:21:02.643Z134424372026-07-30T06:35:51.892Z13663419FALSEFALSEFALSEFALSE1Physique 57 BengaluruFALSE531268260833905package-eventsabsolute
+
+Cava complimentary class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-02-22T05:59:31.524Z13442437
+
+2026-02-22T05:59:31.524Z
+
+FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE537670756133905package-eventsabsolute
+
+Physique 57 x Janaki Bahri Sign Up Link
+
+0fixed-price14daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-03-29T09:03:31.962Z134424372026-03-29T09:04:26.850Z13442437FALSEFALSEFALSEFALSE3Physique 57 BengaluruFALSE5440729040339053457subscriptionabsolute
+
+The Big 85 Flex: Anniversary Edition
+
+91767.62fixed-price360daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE
+
+Introducing The Big 85 Flex: Anniversary Edition– a unique offering tailored to provide our members with unparalleled flexibility. This exclusive package extends the validity to a generous 360 days, empowering members to complete their 91 classes at their own pace. With an emphasis on accommodating diverse schedules, this package is designed to meet the needs of those seeking a more flexible and personalized fitness journey. Embrace the freedom to enjoy your classes at a comfortable rhythm over an extended period, making fitness more accessible and convenient than ever before
+
+91FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2026-04-16T08:08:32.889Z13442437
+
+2026-04-16T08:08:32.889Z
+
+FALSEFALSEFALSEFALSE1Physique 57 BengaluruFALSE550476167633905package-eventsabsolute
+
+Renewal Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-05-05T08:27:07.805Z13442437
+
+2026-05-05T08:27:07.805Z
+
+FALSEFALSEFALSEFALSE25Physique 57 BengaluruFALSE556877597433905package-eventsabsolute
+
+Men's Health Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-05-21T10:56:43.503Z13442437
+
+2026-05-21T10:56:43.503Z
+
+FALSEFALSEFALSEFALSE5Physique 57 BengaluruFALSE5632827542339053457subscriptionabsolute
+
+Copper + Cloves 12 Class Package
+
+9850fixed-price45daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSETRUE
+
+Whether you're a fitness enthusiast or just starting out, Physique 57's 12 Class Package is the perfect way to achieve the results you've been dreaming of! With our expert instructors and supportive community, you'll have the guidance and accountability you need to stay motivated and committed to your fitness goals. Please note - this package is only useable at the Studio by Copper + Cloves.  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit.  
+  
+VALIDITY: This package is valid for 45 days.  
+  
+FREEZE POLICY: Clients are allowed 1 freeze within this package. Freeze Duration can range from 1-30 days. To request a freeze, clients must email [info@physique57bengaluru.com](mailto:info@physique57bengaluru.com) in advance of the freeze start date.
+
+12FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2026-06-22T10:25:07.096Z134424372026-06-22T11:08:06.627Z13442437FALSEFALSEFALSEFALSE1Physique 57 BengaluruFALSE2025-07-15T05:34:31.408Z|13663419|2025-10-01T13:00:18.488Z|13442437|null|null|137949|33905|null|the Studio by Copper + Cloves |session|membership|false|null|null|false5696827552339053457subscriptionabsolute
+
+Copper + Cloves 8 Class Package
+
+6600fixed-price30daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSETRUE
+
+Whether you're a fitness enthusiast or just starting out, Physique 57's 8 Class Package is the perfect way to achieve the results you've been dreaming of! With our expert instructors and supportive community, you'll have the guidance and accountability you need to stay motivated and committed to your fitness goals. Please note - this package is only useable at the Studio by Copper + Cloves. LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit. VALIDITY: This package is valid for 30 days. FREEZE POLICY: Clients are allowed 1 freeze within this package. Freeze Duration can range from 1-30 days. To request a freeze, clients must email [info@physique57bengaluru.com](mailto:info@physique57bengaluru.com) in advance of the freeze start date
+
+8FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2026-06-22T11:10:11.661Z134424372026-06-22T11:10:47.027Z13442437FALSEFALSEFALSEFALSE2Physique 57 BengaluruFALSE2025-07-15T05:34:31.408Z|13663419|2025-10-01T13:00:18.488Z|13442437|null|null|137949|33905|null|the Studio by Copper + Cloves |session|membership|false|null|null|false5824837261339053457package-eventsabsolute
+
+Studio Happy Hour Private Class
+
+2750fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-07-03T08:02:11.277Z13442437
+
+2026-07-03T08:02:11.277Z
+
+FALSEFALSEFALSEFALSE6Physique 57 BengaluruFALSE588884245533905package-eventsabsolute
+
+Physique 57 x Nivedita Rohera Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-07-10T06:07:13.268Z13442437
+
+2026-07-10T06:07:13.268Z
+
+FALSEFALSEFALSEFALSE1Physique 57 BengaluruFALSE595284443933905package-eventsabsolute
+
+Bold &amp; Beyond x Copper + Cloves Free Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-07-14T11:15:04.524Z13442437
+
+2026-07-14T11:15:04.524Z
+
+FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE2025-07-15T05:34:31.408Z|13663419|2025-10-01T13:00:18.488Z|13442437|null|null|137949|33905|null|the Studio by Copper + Cloves |session|membership|false|null|null|false6016873132339053457package-eventsabsolute
+
+Virtual Private Class
+
+3250fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-08-04T11:08:47.150Z13442437
+
+2026-08-04T11:08:47.150Z
+
+FALSEFALSEFALSEFALSE1Physique 57 BengaluruFALSE6080875305339053457subscriptionabsolute
+
+The 21-Day Trial Studio Unlimited Membership
+
+7999fixed-price21daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSEFALSE
+
+21-day unlimited trial membership
+
+FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2026-08-06T08:47:00.583Z13442437
+
+2026-08-06T08:47:00.583Z
+
+FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE6144891884339053457package-eventsabsolute
+
+Plash Pilates Single Class Package
+
+1200fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSETRUE
+
+Plash Pilates Single Class Package will give you access to any 1 of our classes at Plash Pilates, Sadhashivnagar  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit. VALIDITY: This package is valid for 7 days only.
+
+FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-08-13T12:36:47.719Z134424372026-09-06T06:17:04.549Z13442437FALSEFALSEFALSEFALSE1Physique 57 BengaluruFALSE620889413833905package-eventsabsolute
+
+Lapsed Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-08-18T06:28:35.314Z13442437
+
+2026-08-18T06:28:35.314Z
+
+FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE6272894988339053457package-eventsabsolute
+
+8 Private Classes
+
+31400fixed-pricedaysFALSE8FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-08-19T11:38:46.945Z134424372026-08-19T11:41:31.225Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE633690415933905package-eventsabsolute
+
+Plash Pilates Free Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-08-28T06:59:59.430Z134424372026-09-06T06:17:17.959Z13442437FALSEFALSEFALSEFALSE4Physique 57 BengaluruFALSE640090853233905package-eventsabsolute
+
+Plash Pilates Complimentary Class
+
+0fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-09-01T12:04:33.203Z13442437
+
+2026-09-01T12:04:33.203Z
+
+FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE6464913854339053457package-eventsabsolute
+
+Plash Pilates Weekend Package
+
+2280fixed-price14daysTRUE2FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSETRUE
+
+Whether you're a fitness enthusiast or just starting out, this Weekend Package is the perfect option! With our expert instructors and supportive community, you'll have the guidance and accountability you need to stay motivated and committed to your fitness goals.  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit.  
+  
+  
+FREEZE POLICY:This package does not include any freezes.  
+  
+APPLICABLE ONLY AT PLASH PILATES, SADASHIVNAGAR
+
+FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-09-08T10:25:13.015Z134424372026-09-08T10:38:07.234Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE6528913855339053457package-eventsabsolute
+
+Plash Pilates 4 Class Package
+
+4500fixed-price21daysTRUE4FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSETRUE
+
+Whether you're a fitness enthusiast or just starting out, the 4 Class Package is the perfect way to achieve the results you've been dreaming of! With our expert instructors and supportive community, you'll have the guidance and accountability you need to stay motivated and committed to your fitness goals.  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit.  
+  
+  
+FREEZE POLICY:This package does not include any freezes.  
+  
+APPLICABLE ONLY AT PLASH PILATES, SADASHIVNAGAR
+
+FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-09-08T10:28:25.943Z134424372026-09-08T10:29:02.278Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE6592913858339053457subscriptionabsolute
+
+Plash Pilates 10 Class Package
+
+10800fixed-price90daysTRUEFALSEFALSE0FALSEFALSEFALSE0FALSEFALSE70FALSEallowFALSETRUE
+
+Introducing our Plash Pilates 10 Class Package – a unique offering tailored to provide our members with unparalleled flexibility. This package extends the validity to a generous 90 days, empowering members to complete their 10 classes at their own pace.  
+  
+LATE CANCELLATION: Canceling your class within 12 hours of your class start time results in loss of your credit. No shows are considered late cancelations and results in loss of your credit. VALIDITY: This package is valid for90 days.  
+  
+Please note - this package is only applicable at Plash Pilates, Sadashivanagar
+
+10FALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEdaysFALSE2026-09-08T10:34:50.742Z134424372026-09-08T10:35:17.583Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE6656913872339053457package-eventsabsolute
+
+Plash Pilates Credit
+
+600fixed-price7daysTRUE1FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSEFALSEFALSEFALSE0FALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-09-08T11:31:13.261Z13442437
+
+2026-09-08T11:31:13.261Z
+
+FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE6720915073339053457package-eventsabsolute
+
+Physique 57 x Mama Heals - Studio Intro Pack
+
+4050fixed-price21daysTRUE4FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Exclusively for Mama Heals members, this introductory package gives you 4 Physique 57 class credits for the price of 3, valid for 21 days.  
+  
+Whether you’re new to working out or looking to add something different to your routine, this is your introduction to the Physique 57 Method - expert-led classes, personalized attention and a community that keeps you coming back for more.  
+  
+LATE CANCELLATION POLICY  
+Classes cancelled within 12 hours of the scheduled start time will result in the loss of the class credit. No-shows will also be treated as late cancellations and the credit will be forfeited.  
+  
+FREEZE POLICY  
+This package cannot be frozen or extended.  
+  
+Only applicable at Physique 57 Bengaluru, Vittal Mallya Road
+
+FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-09-09T11:49:36.897Z134424372026-09-09T12:38:30.542Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE6784915074339053457package-eventsabsolute
+
+Physique 57 x Mama Heals - C+C Intro Pack
+
+2700fixed-price21daysTRUE4FALSEFALSEFALSEFALSEFALSE70FALSEallowFALSEFALSE
+
+Exclusively for Mama Heals members, this introductory package gives you 4 Physique 57 class credits for the price of 3, valid for 21 days.  
+  
+Whether you’re new to working out or just getting started, this is your introduction to the Physique 57 Method - expert-led classes, personalized attention and a community that keeps you coming back for more.  
+  
+LATE CANCELLATION POLICY  
+Classes cancelled within 12 hours of the scheduled start time will result in the loss of the class credit. No-shows will also be treated as late cancellations and the credit will be forfeited.  
+  
+FREEZE POLICY  
+This package cannot be frozen or extended.  
+  
+Only applicable at the Studio by Copper + Cloves, Indiranagar
+
+FALSEFALSEFALSE0TRUEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSEFALSE2026-09-09T11:51:13.429Z134424372026-09-09T12:38:30.542Z13442437FALSEFALSEFALSEFALSE0Physique 57 BengaluruFALSE6848

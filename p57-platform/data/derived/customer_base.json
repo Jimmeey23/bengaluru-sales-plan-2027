@@ -1,0 +1,230 @@
+{
+ "source": "Lapsed New - Lapsed (20).csv (member lifecycle export)",
+ "scope": "Bengaluru studios only",
+ "generatedFor": "2026-10-16",
+ "purchaseRecords": 6879,
+ "uniqueMembers": 2933,
+ "statusCounts": {
+  "Lapsed": 6256,
+  "Not Activated": 204,
+  "Renewal Grace Period": 294,
+  "Active": 54,
+  "Renewed": 49,
+  "New": 22
+ },
+ "membershipMix": [
+  {
+   "membership": "Studio Open Barre Class",
+   "records": 2009
+  },
+  {
+   "membership": "Studio Single Class",
+   "records": 1665
+  },
+  {
+   "membership": "Studio 1 Month Unlimited Membership",
+   "records": 460
+  },
+  {
+   "membership": "Studio 8 Class Package",
+   "records": 320
+  },
+  {
+   "membership": "New Client Intro Pack",
+   "records": 239
+  },
+  {
+   "membership": "Studio Referrer Complimentary Class",
+   "records": 213
+  },
+  {
+   "membership": "Studio Complimentary Class",
+   "records": 208
+  },
+  {
+   "membership": "Studio Complimentary Referral Class",
+   "records": 178
+  },
+  {
+   "membership": "Studio 12 Class Package",
+   "records": 174
+  },
+  {
+   "membership": "Studio Newcomer 2 for 1",
+   "records": 156
+  },
+  {
+   "membership": "Studio 4 Class Package",
+   "records": 149
+  },
+  {
+   "membership": "Studio 3 Month Unlimited Membership",
+   "records": 128
+  },
+  {
+   "membership": "Copper + Cloves Credit",
+   "records": 93
+  },
+  {
+   "membership": "Recovery Complimentary Class",
+   "records": 72
+  },
+  {
+   "membership": "Scoop Sign Up link",
+   "records": 71
+  },
+  {
+   "membership": "Studio 2 Week Unlimited",
+   "records": 71
+  },
+  {
+   "membership": "Studio Newcomers 2 Week Unlimited Membership",
+   "records": 63
+  },
+  {
+   "membership": "New Studio 10 Single Class Pack",
+   "records": 59
+  },
+  {
+   "membership": "Studio Private Class",
+   "records": 57
+  },
+  {
+   "membership": "Studio Free Influencer Class",
+   "records": 49
+  },
+  {
+   "membership": "Renewal Complimentary Class",
+   "records": 44
+  },
+  {
+   "membership": "Plash Pilates Free Class",
+   "records": 29
+  },
+  {
+   "membership": "1st Anniversary Sign up link",
+   "records": 26
+  },
+  {
+   "membership": "2nd Anniversary Sign Up link",
+   "records": 24
+  },
+  {
+   "membership": "Women's Day Complimentary Class",
+   "records": 23
+  }
+ ],
+ "behaviour": {
+  "avgSessionsPerMonth": {
+   "p25": 2.9,
+   "median": 4.3,
+   "p75": 4.3,
+   "mean": 5.22,
+   "n": 5830
+  },
+  "lapseGapDays": {
+   "p25": 7.0,
+   "median": 7.0,
+   "p75": 11.0,
+   "n": 6161
+  },
+  "daysSinceLastVisit": {
+   "p25": 226.0,
+   "median": 484.0,
+   "p75": 768.0,
+   "n": 6161
+  },
+  "revenuePerSession": {
+   "p25": 1089.38,
+   "median": 1298.0,
+   "p75": 1417.5,
+   "n": 3449
+  },
+  "lowFrequencySharePct": 17.3,
+  "highEngagementSharePct": 1.8
+ },
+ "favouriteTimes": [
+  {
+   "time": "09:00",
+   "records": 1141
+  },
+  {
+   "time": "11:00",
+   "records": 1066
+  },
+  {
+   "time": "17:00",
+   "records": 1032
+  },
+  {
+   "time": "None",
+   "records": 718
+  },
+  {
+   "time": "10:00",
+   "records": 677
+  },
+  {
+   "time": "18:00",
+   "records": 636
+  },
+  {
+   "time": "07:00",
+   "records": 549
+  },
+  {
+   "time": "19:00",
+   "records": 448
+  },
+  {
+   "time": "08:00",
+   "records": 331
+  },
+  {
+   "time": "16:00",
+   "records": 280
+  }
+ ],
+ "favouriteFormats": [
+  {
+   "format": "Studio Barre 57",
+   "records": 3835
+  },
+  {
+   "format": "None",
+   "records": 718
+  },
+  {
+   "format": "Studio Cardio Barre",
+   "records": 479
+  },
+  {
+   "format": "Studio Mat 57",
+   "records": 430
+  },
+  {
+   "format": "Studio Foundations",
+   "records": 356
+  },
+  {
+   "format": "Studio FIT",
+   "records": 177
+  },
+  {
+   "format": "Studio Back Body Blaze",
+   "records": 146
+  },
+  {
+   "format": "Studio Recovery",
+   "records": 108
+  },
+  {
+   "format": "Studio Trainer's Choice",
+   "records": 80
+  },
+  {
+   "format": "Plash Pilates Barre 57",
+   "records": 48
+  }
+ ]
+}

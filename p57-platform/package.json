@@ -1,0 +1,43 @@
+{
+  "name": "physique57-offer-platform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsx tests/engine.test.ts",
+    "dev": "next dev -p 3210",
+    "build": "next build",
+    "start": "next start -p 3210",
+    "data:parse": "python3 tools/parse_catalogue.py",
+    "data:derive": "python3 tools/derive_analytics.py",
+    "data:validate": "python3 tools/validate_catalogue.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "private": "true",
+  "dependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.20.5",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.6.1",
+    "better-sqlite3": "^11.8.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "lucide-react": "^0.474.0",
+    "next": "^15.5.28",
+    "papaparse": "^5.4.1",
+    "postcss": "^8.5.30",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.1",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "xlsx": "^0.18.5",
+    "zod": "^3.24.1"
+  }
+}

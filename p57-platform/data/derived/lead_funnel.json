@@ -1,0 +1,493 @@
+{
+ "source": "\u2756 PM - Leads \u2756 - \u25c9 Leads (31).csv (CRM lead export)",
+ "scope": "Bengaluru enquiries only",
+ "generatedFor": "2026-10-16",
+ "byStudio": [
+  {
+   "studio": "Physique 57 Bengaluru (Vittal Mallya Road)",
+   "leads": 9892,
+   "trials": 3058,
+   "converted": 1145,
+   "withMemberId": 9892,
+   "trialRatePct": 30.9,
+   "conversionOfLeadsPct": 11.6,
+   "conversionOfTrialsPct": 37.4
+  },
+  {
+   "studio": "Studio by Copper + Cloves, Indiranagar",
+   "leads": 1713,
+   "trials": 475,
+   "converted": 355,
+   "withMemberId": 1713,
+   "trialRatePct": 27.7,
+   "conversionOfLeadsPct": 20.7,
+   "conversionOfTrialsPct": 74.7
+  },
+  {
+   "studio": "Plash Pilates, Sadashivnagar",
+   "leads": 117,
+   "trials": 47,
+   "converted": 16,
+   "withMemberId": 117,
+   "trialRatePct": 40.2,
+   "conversionOfLeadsPct": 13.7,
+   "conversionOfTrialsPct": 34.0
+  }
+ ],
+ "bySource": [
+  {
+   "studio": "Physique 57 Bengaluru (Vittal Mallya Road)",
+   "source": "Website",
+   "leads": 5478,
+   "trials": 598,
+   "converted": 274,
+   "conversionOfLeadsPct": 5.0
+  },
+  {
+   "studio": "Physique 57 Bengaluru (Vittal Mallya Road)",
+   "source": "Client Referral",
+   "leads": 939,
+   "trials": 718,
+   "converted": 244,
+   "conversionOfLeadsPct": 26.0
+  },
+  {
+   "studio": "Physique 57 Bengaluru (Vittal Mallya Road)",
+   "source": "Social - Instagram",
+   "leads": 855,
+   "trials": 192,
+   "converted": 124,
+   "conversionOfLeadsPct": 14.5
+  },
+  {
+   "studio": "Physique 57 Bengaluru (Vittal Mallya Road)",
+   "source": "Hosted Class",
+   "leads": 721,
+   "trials": 565,
+   "converted": 55,
+   "conversionOfLeadsPct": 7.6
+  },
+  {
+   "studio": "Physique 57 Bengaluru (Vittal Mallya Road)",
+   "source": "Outdoor Class",
+   "leads": 457,
+   "trials": 231,
+   "converted": 35,
+   "conversionOfLeadsPct": 7.7
+  },
+  {
+   "studio": "Physique 57 Bengaluru (Vittal Mallya Road)",
+   "source": "Website Form",
+   "leads": 400,
+   "trials": 192,
+   "converted": 95,
+   "conversionOfLeadsPct": 23.8
+  },
+  {
+   "studio": "Physique 57 Bengaluru (Vittal Mallya Road)",
+   "source": "Walkin",
+   "leads": 170,
+   "trials": 86,
+   "converted": 68,
+   "conversionOfLeadsPct": 40.0
+  },
+  {
+   "studio": "Physique 57 Bengaluru (Vittal Mallya Road)",
+   "source": "Influencer Marketing",
+   "leads": 156,
+   "trials": 99,
+   "converted": 18,
+   "conversionOfLeadsPct": 11.5
+  },
+  {
+   "studio": "Physique 57 Bengaluru (Vittal Mallya Road)",
+   "source": "Dashboard",
+   "leads": 147,
+   "trials": 112,
+   "converted": 66,
+   "conversionOfLeadsPct": 44.9
+  },
+  {
+   "studio": "Physique 57 Bengaluru (Vittal Mallya Road)",
+   "source": "Incoming call",
+   "leads": 147,
+   "trials": 108,
+   "converted": 67,
+   "conversionOfLeadsPct": 45.6
+  },
+  {
+   "studio": "Physique 57 Bengaluru (Vittal Mallya Road)",
+   "source": "Abandoned checkout",
+   "leads": 134,
+   "trials": 45,
+   "converted": 26,
+   "conversionOfLeadsPct": 19.4
+  },
+  {
+   "studio": "Physique 57 Bengaluru (Vittal Mallya Road)",
+   "source": "Yellow Messenger/Whatsapp Enquiry",
+   "leads": 75,
+   "trials": 39,
+   "converted": 26,
+   "conversionOfLeadsPct": 34.7
+  },
+  {
+   "studio": "Studio by Copper + Cloves, Indiranagar",
+   "source": "Website",
+   "leads": 878,
+   "trials": 59,
+   "converted": 47,
+   "conversionOfLeadsPct": 5.4
+  },
+  {
+   "studio": "Studio by Copper + Cloves, Indiranagar",
+   "source": "Website Copper + Cloves",
+   "leads": 233,
+   "trials": 19,
+   "converted": 12,
+   "conversionOfLeadsPct": 5.2
+  },
+  {
+   "studio": "Studio by Copper + Cloves, Indiranagar",
+   "source": "Dashboard",
+   "leads": 210,
+   "trials": 154,
+   "converted": 139,
+   "conversionOfLeadsPct": 66.2
+  },
+  {
+   "studio": "Studio by Copper + Cloves, Indiranagar",
+   "source": "Website Form",
+   "leads": 119,
+   "trials": 39,
+   "converted": 32,
+   "conversionOfLeadsPct": 26.9
+  },
+  {
+   "studio": "Studio by Copper + Cloves, Indiranagar",
+   "source": "Client Referral",
+   "leads": 77,
+   "trials": 67,
+   "converted": 58,
+   "conversionOfLeadsPct": 75.3
+  },
+  {
+   "studio": "Studio by Copper + Cloves, Indiranagar",
+   "source": "Hosted Class",
+   "leads": 61,
+   "trials": 46,
+   "converted": 1,
+   "conversionOfLeadsPct": 1.6
+  },
+  {
+   "studio": "Studio by Copper + Cloves, Indiranagar",
+   "source": "Abandoned checkout",
+   "leads": 40,
+   "trials": 30,
+   "converted": 26,
+   "conversionOfLeadsPct": 65.0
+  },
+  {
+   "studio": "Studio by Copper + Cloves, Indiranagar",
+   "source": "Influencer Marketing",
+   "leads": 17,
+   "trials": 14,
+   "converted": 1,
+   "conversionOfLeadsPct": 5.9
+  },
+  {
+   "studio": "Studio by Copper + Cloves, Indiranagar",
+   "source": "the Studio by Copper + Cloves",
+   "leads": 17,
+   "trials": 17,
+   "converted": 8,
+   "conversionOfLeadsPct": 47.1
+  },
+  {
+   "studio": "Studio by Copper + Cloves, Indiranagar",
+   "source": "Social - Instagram",
+   "leads": 14,
+   "trials": 8,
+   "converted": 7,
+   "conversionOfLeadsPct": 50.0
+  },
+  {
+   "studio": "Studio by Copper + Cloves, Indiranagar",
+   "source": "Walkin",
+   "leads": 12,
+   "trials": 9,
+   "converted": 12,
+   "conversionOfLeadsPct": 100.0
+  },
+  {
+   "studio": "Studio by Copper + Cloves, Indiranagar",
+   "source": "Yellow Messenger/Whatsapp Enquiry",
+   "leads": 9,
+   "trials": 1,
+   "converted": 1,
+   "conversionOfLeadsPct": 11.1
+  },
+  {
+   "studio": "Plash Pilates, Sadashivnagar",
+   "source": "Website",
+   "leads": 67,
+   "trials": 7,
+   "converted": 4,
+   "conversionOfLeadsPct": 6.0
+  },
+  {
+   "studio": "Plash Pilates, Sadashivnagar",
+   "source": "Influencer Marketing",
+   "leads": 18,
+   "trials": 18,
+   "converted": 2,
+   "conversionOfLeadsPct": 11.1
+  },
+  {
+   "studio": "Plash Pilates, Sadashivnagar",
+   "source": "Dashboard",
+   "leads": 12,
+   "trials": 9,
+   "converted": 2,
+   "conversionOfLeadsPct": 16.7
+  },
+  {
+   "studio": "Plash Pilates, Sadashivnagar",
+   "source": "Abandoned checkout",
+   "leads": 8,
+   "trials": 6,
+   "converted": 3,
+   "conversionOfLeadsPct": 37.5
+  },
+  {
+   "studio": "Plash Pilates, Sadashivnagar",
+   "source": "the Studio by Copper + Cloves",
+   "leads": 6,
+   "trials": 5,
+   "converted": 4,
+   "conversionOfLeadsPct": 66.7
+  },
+  {
+   "studio": "Plash Pilates, Sadashivnagar",
+   "source": "Incoming call",
+   "leads": 2,
+   "trials": 0,
+   "converted": 1,
+   "conversionOfLeadsPct": 50.0
+  },
+  {
+   "studio": "Plash Pilates, Sadashivnagar",
+   "source": "Website Form",
+   "leads": 1,
+   "trials": 0,
+   "converted": 0,
+   "conversionOfLeadsPct": 0.0
+  },
+  {
+   "studio": "Plash Pilates, Sadashivnagar",
+   "source": "Hosted Class",
+   "leads": 1,
+   "trials": 1,
+   "converted": 0,
+   "conversionOfLeadsPct": 0.0
+  },
+  {
+   "studio": "Plash Pilates, Sadashivnagar",
+   "source": "Plash Pilates",
+   "leads": 1,
+   "trials": 0,
+   "converted": 0,
+   "conversionOfLeadsPct": 0.0
+  },
+  {
+   "studio": "Plash Pilates, Sadashivnagar",
+   "source": "Client Referral",
+   "leads": 1,
+   "trials": 1,
+   "converted": 0,
+   "conversionOfLeadsPct": 0.0
+  }
+ ],
+ "monthly": [
+  {
+   "month": "2024-05",
+   "leads": 1418,
+   "converted": 198,
+   "conversionOfLeadsPct": 14.0
+  },
+  {
+   "month": "2024-06",
+   "leads": 324,
+   "converted": 29,
+   "conversionOfLeadsPct": 9.0
+  },
+  {
+   "month": "2024-07",
+   "leads": 257,
+   "converted": 37,
+   "conversionOfLeadsPct": 14.4
+  },
+  {
+   "month": "2024-08",
+   "leads": 199,
+   "converted": 36,
+   "conversionOfLeadsPct": 18.1
+  },
+  {
+   "month": "2024-09",
+   "leads": 241,
+   "converted": 30,
+   "conversionOfLeadsPct": 12.4
+  },
+  {
+   "month": "2024-10",
+   "leads": 193,
+   "converted": 17,
+   "conversionOfLeadsPct": 8.8
+  },
+  {
+   "month": "2024-11",
+   "leads": 209,
+   "converted": 31,
+   "conversionOfLeadsPct": 14.8
+  },
+  {
+   "month": "2024-12",
+   "leads": 259,
+   "converted": 25,
+   "conversionOfLeadsPct": 9.7
+  },
+  {
+   "month": "2025-01",
+   "leads": 268,
+   "converted": 48,
+   "conversionOfLeadsPct": 17.9
+  },
+  {
+   "month": "2025-02",
+   "leads": 305,
+   "converted": 25,
+   "conversionOfLeadsPct": 8.2
+  },
+  {
+   "month": "2025-03",
+   "leads": 380,
+   "converted": 30,
+   "conversionOfLeadsPct": 7.9
+  },
+  {
+   "month": "2025-04",
+   "leads": 517,
+   "converted": 35,
+   "conversionOfLeadsPct": 6.8
+  },
+  {
+   "month": "2025-05",
+   "leads": 518,
+   "converted": 34,
+   "conversionOfLeadsPct": 6.6
+  },
+  {
+   "month": "2025-06",
+   "leads": 377,
+   "converted": 28,
+   "conversionOfLeadsPct": 7.4
+  },
+  {
+   "month": "2025-07",
+   "leads": 343,
+   "converted": 45,
+   "conversionOfLeadsPct": 13.1
+  },
+  {
+   "month": "2025-08",
+   "leads": 493,
+   "converted": 62,
+   "conversionOfLeadsPct": 12.6
+  },
+  {
+   "month": "2025-09",
+   "leads": 466,
+   "converted": 32,
+   "conversionOfLeadsPct": 6.9
+  },
+  {
+   "month": "2025-10",
+   "leads": 573,
+   "converted": 68,
+   "conversionOfLeadsPct": 11.9
+  },
+  {
+   "month": "2025-11",
+   "leads": 448,
+   "converted": 68,
+   "conversionOfLeadsPct": 15.2
+  },
+  {
+   "month": "2025-12",
+   "leads": 249,
+   "converted": 48,
+   "conversionOfLeadsPct": 19.3
+  },
+  {
+   "month": "2026-01",
+   "leads": 596,
+   "converted": 45,
+   "conversionOfLeadsPct": 7.6
+  },
+  {
+   "month": "2026-02",
+   "leads": 454,
+   "converted": 54,
+   "conversionOfLeadsPct": 11.9
+  },
+  {
+   "month": "2026-03",
+   "leads": 482,
+   "converted": 70,
+   "conversionOfLeadsPct": 14.5
+  },
+  {
+   "month": "2026-04",
+   "leads": 469,
+   "converted": 66,
+   "conversionOfLeadsPct": 14.1
+  },
+  {
+   "month": "2026-05",
+   "leads": 456,
+   "converted": 69,
+   "conversionOfLeadsPct": 15.1
+  },
+  {
+   "month": "2026-06",
+   "leads": 428,
+   "converted": 82,
+   "conversionOfLeadsPct": 19.2
+  },
+  {
+   "month": "2026-07",
+   "leads": 294,
+   "converted": 68,
+   "conversionOfLeadsPct": 23.1
+  },
+  {
+   "month": "2026-08",
+   "leads": 203,
+   "converted": 64,
+   "conversionOfLeadsPct": 31.5
+  },
+  {
+   "month": "2026-09",
+   "leads": 236,
+   "converted": 56,
+   "conversionOfLeadsPct": 23.7
+  },
+  {
+   "month": "2026-10",
+   "leads": 67,
+   "converted": 16,
+   "conversionOfLeadsPct": 23.9
+  }
+ ]
+}

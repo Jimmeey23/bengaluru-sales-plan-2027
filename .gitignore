@@ -1,0 +1,8 @@
+# Raw exports contain customer PII — never commit
+uploads/
+.DS_Store
+.config/
+node_modules/
+.next/
+*.tsbuildinfo
+p57-platform/data/app.db*
