@@ -25,7 +25,7 @@ export const SESSION_COOKIE = 'p57_session';
 export interface SessionUser extends User {}
 
 /** The person the workspace opens as when nobody has switched. */
-export const DEFAULT_USER_ID = 'usr_aarav';
+export const DEFAULT_USER_ID = 'usr_jimmeey';
 
 /**
  * Resolves the acting user. In open workspace mode there is no null case: an unrecognised or

@@ -18,6 +18,7 @@ import { generateProposals, type EvidenceContext, type OfferProposal } from '@/l
 import { computeOfferMetrics } from '@/lib/engine';
 import { generateMessages } from '@/lib/engine/copy';
 import { SEED_VERSION } from '@/lib/db/version';
+import { readStoredAiConfig } from '@/lib/ai/key-store';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 
@@ -38,11 +39,13 @@ export const LOCATION_NAME_TO_ID: Record<string, LocationId> = {
 };
 
 const USERS = [
-  { id: 'usr_aarav', name: 'Aarav Mehta', email: 'aarav.mehta@physique57.in', role: 'admin', title: 'Studio Director, India', color: '#B4533A' },
-  { id: 'usr_priya', name: 'Priya Raghunathan', email: 'priya.r@physique57.in', role: 'manager', title: 'Head of Sales, Bengaluru', color: '#1F6F6B' },
-  { id: 'usr_kabir', name: 'Kabir Nair', email: 'kabir.n@physique57.in', role: 'sales', title: 'Membership Consultant', color: '#B08430' },
-  { id: 'usr_ananya', name: 'Ananya Iyer', email: 'ananya.i@physique57.in', role: 'sales', title: 'Membership Consultant', color: '#5B6C8F' },
-  { id: 'usr_rhea', name: 'Rhea Kapoor', email: 'rhea.k@physique57.in', role: 'viewer', title: 'Brand & Marketing', color: '#8E8779' },
+  // Bengaluru team, from the Zoho People employee directory. Only work identity is kept here.
+  { id: 'usr_jimmeey', name: 'Jimmeey Gondaa', email: 'jimmeey@physique57india.com', role: 'admin', title: 'Administrator', color: '#B4533A' },
+  { id: 'usr_shifa', name: 'Shifa Ali', email: 'shifa@physique57bengaluru.com', role: 'manager', title: 'Sales & Client Servicing Manager', color: '#1F6F6B' },
+  { id: 'usr_prathap', name: 'Prathap K P', email: 'prathap@physique57bengaluru.com', role: 'sales', title: 'Sales & Client Servicing Associate', color: '#B08430' },
+  { id: 'usr_api', name: 'Wungsingla Serou (Api)', email: 'api@physique57bengaluru.com', role: 'sales', title: 'Sales & Client Servicing Associate', color: '#5B6C8F' },
+  { id: 'usr_sashi', name: 'Sashi Singh', email: 'sashi@physique57bengaluru.com', role: 'sales', title: 'Sales & Client Servicing Associate', color: '#8E8779' },
+  { id: 'usr_yashas', name: 'Yashas K', email: 'yashas@physique57bengaluru.com', role: 'sales', title: 'Sales & Client Servicing Associate', color: '#6B7F4E' },
 ];
 
 export const DEMO_PASSWORD = 'physique57';
@@ -162,7 +165,7 @@ export function runSeed(db: Database.Database) {
       @status,@status_basis,@location_id,@price,@price_type,@duration,@duration_unit,@duration_days,@credits,
       @complimentary_credits,@credit_source,@unlimited_access,@private_session_count,@is_intro_offer,
       @audience_restriction,@description,@benefits_json,@policies_json,@eligibility_json,@observed_json,@tags_json,
-      @parse_confidence,@warnings_json,@manual_review_note,@soft_deleted,@created_at,@modified_at,1,@updated_at,'usr_aarav')`);
+      @parse_confidence,@warnings_json,@manual_review_note,@soft_deleted,@created_at,@modified_at,1,@updated_at,'usr_jimmeey')`);
 
     const catalogue: CatalogueProduct[] = [];
     for (const p of parsed) {
@@ -232,7 +235,7 @@ export function runSeed(db: Database.Database) {
 
     // ---------------------------------------------------------------- settings
     const settings = {
-      guardrails: { ...DEFAULT_GUARDRAILS, updatedAt: new Date().toISOString(), updatedBy: 'usr_aarav' } as GuardrailConfig,
+      guardrails: { ...DEFAULT_GUARDRAILS, updatedAt: new Date().toISOString(), updatedBy: 'usr_jimmeey' } as GuardrailConfig,
       costs: DEFAULT_COSTS,
       // Unlimited memberships cannot be valued without an attendance basis. Rather than leaving the
       // field empty (which would block every unlimited concept), the workspace starts from what the
@@ -247,12 +250,13 @@ export function runSeed(db: Database.Database) {
           ? `Median of ${customerBase.behaviour.avgSessionsPerMonth.median} sessions per month across ${customerBase.behaviour.avgSessionsPerMonth.n} observed member-months in the supplied customer-base export. A starting assumption for valuing unlimited memberships — editable in Settings.`
           : 'No attendance figure could be derived from the supplied export. Set one in Settings before valuing unlimited memberships.',
         updatedAt: new Date().toISOString(),
-        updatedBy: 'usr_aarav',
+        updatedBy: 'usr_jimmeey',
       },
       simulation: DEFAULT_SIMULATION,
-      ai: {
+      // A key saved in Settings → AI survives re-seeding: it is restored from the local key store.
+      ai: readStoredAiConfig() ?? {
         provider: 'local_strategist', model: 'rules-v1', keyConfigured: false, keyHint: null,
-        updatedAt: new Date().toISOString(), updatedBy: 'usr_aarav',
+        updatedAt: new Date().toISOString(), updatedBy: 'usr_jimmeey',
       },
       integrations: [
         { key: 'momence', label: 'Momence (studio management)', status: 'demo', endpoint: null, verifiedAt: null, verifiedBy: null,
@@ -277,7 +281,7 @@ export function runSeed(db: Database.Database) {
     };
     const setStmt = db.prepare(`INSERT INTO settings (key,value_json,updated_at,updated_by) VALUES (?,?,?,?)`);
     const ts = new Date().toISOString();
-    Object.entries(settings).forEach(([k, v]) => setStmt.run(k, JSON.stringify(v), ts, 'usr_aarav'));
+    Object.entries(settings).forEach(([k, v]) => setStmt.run(k, JSON.stringify(v), ts, 'usr_jimmeey'));
 
     // ---------------------------------------------------------------- offers
     const guardrails = settings.guardrails as GuardrailConfig;
@@ -325,16 +329,16 @@ interface SeedBrief {
 }
 
 const BRIEFS: SeedBrief[] = [
-  { key: 'winback-90', audience: ['long_lapsed_members'], objectives: ['reactivate_lapsed'], locationIds: ['p57-blr-vmr'], presetId: 'win-back-special', controls: { creativity: 50, discountAggressiveness: 45, customerAttractiveness: 85, revenueProtection: 55, complexity: 35, durationBias: 'shorter' }, targetStatus: 'approved', ownerId: 'usr_priya', collectionIds: ['col-winback'], count: 3, prompt: 'Members who bought an unlimited membership and have not visited in three months.' },
-  { key: 'renewal-moment', audience: ['recently_expired_members'], objectives: ['increase_renewals', 'improve_frequency'], locationIds: ['p57-blr-vmr'], presetId: 'revenue-protector', controls: { creativity: 40, discountAggressiveness: 15, customerAttractiveness: 70, revenueProtection: 90, complexity: 45 }, targetStatus: 'in_review', ownerId: 'usr_kabir', collectionIds: ['col-renewal'], count: 3, prompt: 'A compelling renewal offer for members whose six-month membership has just expired.' },
-  { key: 'newclient-funnel', audience: ['first_time_customers', 'previous_trial_customers'], objectives: ['acquire_new_members', 'convert_after_trial'], locationIds: ['p57-blr-vmr'], presetId: 'conversion-booster', controls: { creativity: 55, discountAggressiveness: 45, customerAttractiveness: 85, revenueProtection: 50, complexity: 40, durationBias: 'shorter' }, targetStatus: 'published', ownerId: 'usr_kabir', collectionIds: ['col-new-client'], count: 3, prompt: 'Someone who completed a trial class and has not yet bought a membership.' },
-  { key: 'private-upsell', audience: ['private_training_clients', 'high_value_clients'], objectives: ['upsell_private_training', 'increase_atv'], locationIds: ['p57-blr-vmr'], presetId: 'private-upsell', controls: { creativity: 45, discountAggressiveness: 20, customerAttractiveness: 75, revenueProtection: 85, complexity: 60 }, targetStatus: 'draft', ownerId: 'usr_priya', collectionIds: ['col-private', 'col-premium'], count: 3, prompt: 'Members who attend twice a week and want to try private training.' },
-  { key: 'offpeak', audience: ['low_frequency_members', 'existing_active_members'], objectives: ['drive_offpeak', 'improve_frequency'], locationIds: ['p57-blr-vmr'], presetId: 'creative-wildcard', controls: { creativity: 75, discountAggressiveness: 40, customerAttractiveness: 75, revenueProtection: 65, complexity: 60, durationBias: 'same' }, targetStatus: 'draft', ownerId: 'usr_ananya', collectionIds: ['col-limited', 'col-experimental'], count: 3, prompt: 'Fill the weekday morning sessions that are running at a third of capacity.' },
-  { key: 'cnc-local', audience: ['first_time_customers'], objectives: ['acquire_new_members'], locationIds: ['studio-cnc-indiranagar'], presetId: 'conversion-booster', controls: { creativity: 55, discountAggressiveness: 40, customerAttractiveness: 80, revenueProtection: 55, complexity: 35 }, targetStatus: 'draft', ownerId: 'usr_ananya', collectionIds: ['col-new-client'], count: 2, prompt: 'Local first-time clients for the Studio by Copper + Cloves, Indiranagar.' },
-  { key: 'plash-local', audience: ['first_time_customers', 'low_frequency_members'], objectives: ['acquire_new_members', 'improve_frequency'], locationIds: ['plash-pilates-sadashivnagar'], presetId: 'safe-sensible', controls: { creativity: 40, discountAggressiveness: 30, customerAttractiveness: 70, revenueProtection: 75, complexity: 35 }, targetStatus: 'changes_requested', ownerId: 'usr_kabir', collectionIds: ['col-new-client', 'col-limited'], count: 2, prompt: 'Plash Pilates Sadashivnagar — grow the local base without discounting the studio pricing.' },
-  { key: 'premium', audience: ['high_value_clients'], objectives: ['increase_atv', 'reward_loyalty', 'longer_commitment'], locationIds: ['p57-blr-vmr'], presetId: 'premium-experience', controls: { creativity: 65, discountAggressiveness: 10, customerAttractiveness: 70, revenueProtection: 95, complexity: 70, durationBias: 'longer' }, targetStatus: 'approved', ownerId: 'usr_priya', collectionIds: ['col-premium'], count: 3, prompt: 'A premium proposition around ₹25,000 with a mix of studio and private classes.' },
-  { key: 'referral', audience: ['referral_customers', 'existing_active_members'], objectives: ['encourage_referrals', 'acquire_new_members'], locationIds: ['p57-blr-vmr'], presetId: 'revenue-protector', controls: { creativity: 55, discountAggressiveness: 20, customerAttractiveness: 80, revenueProtection: 85, complexity: 50 }, targetStatus: 'draft', ownerId: 'usr_ananya', collectionIds: ['col-referral'], count: 2, prompt: 'A member-get-member mechanic that rewards the member only when the friend actually purchases.' },
-  { key: 'corporate', audience: ['corporate_clients'], objectives: ['acquire_new_members', 'longer_commitment'], locationIds: ['p57-blr-vmr'], presetId: 'safe-sensible', controls: { creativity: 35, discountAggressiveness: 30, customerAttractiveness: 65, revenueProtection: 80, complexity: 45 }, targetStatus: 'draft', ownerId: 'usr_priya', collectionIds: ['col-corporate'], count: 2, prompt: 'Corporate wellness blocks for offices within walking distance of the studio.' },
+  { key: 'winback-90', audience: ['long_lapsed_members'], objectives: ['reactivate_lapsed'], locationIds: ['p57-blr-vmr'], presetId: 'win-back-special', controls: { creativity: 50, discountAggressiveness: 45, customerAttractiveness: 85, revenueProtection: 55, complexity: 35, durationBias: 'shorter' }, targetStatus: 'approved', ownerId: 'usr_shifa', collectionIds: ['col-winback'], count: 3, prompt: 'Members who bought an unlimited membership and have not visited in three months.' },
+  { key: 'renewal-moment', audience: ['recently_expired_members'], objectives: ['increase_renewals', 'improve_frequency'], locationIds: ['p57-blr-vmr'], presetId: 'revenue-protector', controls: { creativity: 40, discountAggressiveness: 15, customerAttractiveness: 70, revenueProtection: 90, complexity: 45 }, targetStatus: 'in_review', ownerId: 'usr_prathap', collectionIds: ['col-renewal'], count: 3, prompt: 'A compelling renewal offer for members whose six-month membership has just expired.' },
+  { key: 'newclient-funnel', audience: ['first_time_customers', 'previous_trial_customers'], objectives: ['acquire_new_members', 'convert_after_trial'], locationIds: ['p57-blr-vmr'], presetId: 'conversion-booster', controls: { creativity: 55, discountAggressiveness: 45, customerAttractiveness: 85, revenueProtection: 50, complexity: 40, durationBias: 'shorter' }, targetStatus: 'published', ownerId: 'usr_prathap', collectionIds: ['col-new-client'], count: 3, prompt: 'Someone who completed a trial class and has not yet bought a membership.' },
+  { key: 'private-upsell', audience: ['private_training_clients', 'high_value_clients'], objectives: ['upsell_private_training', 'increase_atv'], locationIds: ['p57-blr-vmr'], presetId: 'private-upsell', controls: { creativity: 45, discountAggressiveness: 20, customerAttractiveness: 75, revenueProtection: 85, complexity: 60 }, targetStatus: 'draft', ownerId: 'usr_shifa', collectionIds: ['col-private', 'col-premium'], count: 3, prompt: 'Members who attend twice a week and want to try private training.' },
+  { key: 'offpeak', audience: ['low_frequency_members', 'existing_active_members'], objectives: ['drive_offpeak', 'improve_frequency'], locationIds: ['p57-blr-vmr'], presetId: 'creative-wildcard', controls: { creativity: 75, discountAggressiveness: 40, customerAttractiveness: 75, revenueProtection: 65, complexity: 60, durationBias: 'same' }, targetStatus: 'draft', ownerId: 'usr_api', collectionIds: ['col-limited', 'col-experimental'], count: 3, prompt: 'Fill the weekday morning sessions that are running at a third of capacity.' },
+  { key: 'cnc-local', audience: ['first_time_customers'], objectives: ['acquire_new_members'], locationIds: ['studio-cnc-indiranagar'], presetId: 'conversion-booster', controls: { creativity: 55, discountAggressiveness: 40, customerAttractiveness: 80, revenueProtection: 55, complexity: 35 }, targetStatus: 'draft', ownerId: 'usr_api', collectionIds: ['col-new-client'], count: 2, prompt: 'Local first-time clients for the Studio by Copper + Cloves, Indiranagar.' },
+  { key: 'plash-local', audience: ['first_time_customers', 'low_frequency_members'], objectives: ['acquire_new_members', 'improve_frequency'], locationIds: ['plash-pilates-sadashivnagar'], presetId: 'safe-sensible', controls: { creativity: 40, discountAggressiveness: 30, customerAttractiveness: 70, revenueProtection: 75, complexity: 35 }, targetStatus: 'changes_requested', ownerId: 'usr_prathap', collectionIds: ['col-new-client', 'col-limited'], count: 2, prompt: 'Plash Pilates Sadashivnagar — grow the local base without discounting the studio pricing.' },
+  { key: 'premium', audience: ['high_value_clients'], objectives: ['increase_atv', 'reward_loyalty', 'longer_commitment'], locationIds: ['p57-blr-vmr'], presetId: 'premium-experience', controls: { creativity: 65, discountAggressiveness: 10, customerAttractiveness: 70, revenueProtection: 95, complexity: 70, durationBias: 'longer' }, targetStatus: 'approved', ownerId: 'usr_shifa', collectionIds: ['col-premium'], count: 3, prompt: 'A premium proposition around ₹25,000 with a mix of studio and private classes.' },
+  { key: 'referral', audience: ['referral_customers', 'existing_active_members'], objectives: ['encourage_referrals', 'acquire_new_members'], locationIds: ['p57-blr-vmr'], presetId: 'revenue-protector', controls: { creativity: 55, discountAggressiveness: 20, customerAttractiveness: 80, revenueProtection: 85, complexity: 50 }, targetStatus: 'draft', ownerId: 'usr_api', collectionIds: ['col-referral'], count: 2, prompt: 'A member-get-member mechanic that rewards the member only when the friend actually purchases.' },
+  { key: 'corporate', audience: ['corporate_clients'], objectives: ['acquire_new_members', 'longer_commitment'], locationIds: ['p57-blr-vmr'], presetId: 'safe-sensible', controls: { creativity: 35, discountAggressiveness: 30, customerAttractiveness: 65, revenueProtection: 80, complexity: 45 }, targetStatus: 'draft', ownerId: 'usr_shifa', collectionIds: ['col-corporate'], count: 2, prompt: 'Corporate wellness blocks for offices within walking distance of the studio.' },
 ];
 
 function seedOffers(args: { db: Database.Database; catalogue: CatalogueProduct[]; guardrails: GuardrailConfig; evidence: EvidenceContext }) {
@@ -476,7 +480,7 @@ function seedOffers(args: { db: Database.Database; catalogue: CatalogueProduct[]
         // Published offers intentionally land inside the decision window so the
         // command centre has real expiry work to surface.
         expiresOn: brief.targetStatus === 'published' ? EXPIRY_WINDOW[i % EXPIRY_WINDOW.length] : null,
-        collaboratorIds: brief.ownerId === 'usr_kabir' ? ['usr_ananya'] : ['usr_kabir'],
+        collaboratorIds: brief.ownerId === 'usr_prathap' ? ['usr_api'] : ['usr_prathap'],
         favourite: i % 7 === 0,
         pinned: i % 9 === 0,
       });
@@ -511,14 +515,14 @@ function seedOffers(args: { db: Database.Database; catalogue: CatalogueProduct[]
       description: h.note, promoCopy: '', status: h.status, origin: 'manual',
       baseProductId: base.id, components: [], audience: [], objectives: [],
       eligibility: base.eligibility, terms, tags: ['historical-reference'], collectionIds: h.collection,
-      ownerId: 'usr_priya', conceptOnly: false,
+      ownerId: 'usr_shifa', conceptOnly: false,
       generation: {
         engine: 'import', engineVersion: ENGINE_VERSION, mode: 'seed', provider: 'local_strategist',
         providerLabel: 'Imported from the membership export', notes: [h.note],
         evidenceUsed: ['Membership export', 'Bengaluru sales export'], generatedAt: base.createdAt ?? daysAgo(300),
       },
       createdAt: base.createdAt ?? daysAgo(300), updatedAt: base.modifiedAt ?? daysAgo(120),
-      approvedVersion: 1, publishedAt: base.createdAt ?? daysAgo(300), collaboratorIds: ['usr_kabir'],
+      approvedVersion: 1, publishedAt: base.createdAt ?? daysAgo(300), collaboratorIds: ['usr_prathap'],
     });
     const observed = base.observed;
     if (observed) {
@@ -526,12 +530,12 @@ function seedOffers(args: { db: Database.Database; catalogue: CatalogueProduct[]
         VALUES (?,?,?,?,?,?,?,?,?,?,?,?)`).run(
         `prf_${crypto.randomBytes(6).toString('hex')}`, id, 'units_sold', 'Units sold (observed)', null, observed.units, 'units',
         'Observed in the Bengaluru payments export, not an estimate.', 'Sales - Raw - Sales (23).csv', `${observed.firstSale} → ${observed.lastSale}`,
-        new Date().toISOString(), 'usr_aarav');
+        new Date().toISOString(), 'usr_jimmeey');
       db.prepare(`INSERT INTO performance_records (id,offer_id,metric,label,expected,actual,unit,basis,source,period,created_at,created_by)
         VALUES (?,?,?,?,?,?,?,?,?,?,?,?)`).run(
         `prf_${crypto.randomBytes(6).toString('hex')}`, id, 'revenue', 'Revenue (observed)', null, observed.revenue, 'INR',
         'Observed in the Bengaluru payments export, not an estimate.', 'Sales - Raw - Sales (23).csv', `${observed.firstSale} → ${observed.lastSale}`,
-        new Date().toISOString(), 'usr_aarav');
+        new Date().toISOString(), 'usr_jimmeey');
     }
   }
 
@@ -551,7 +555,7 @@ function seedCampaigns(db: Database.Database, offers: { id: string; name: string
       description: 'Festive window built around gifting, guest access and short-window packs. Unlimited memberships are excluded from discounting in this campaign by guardrail.',
       audience: ['first_time_customers', 'existing_active_members'], locations: ['p57-blr-vmr', 'studio-cnc-indiranagar'],
       start: '2026-10-25', end: '2026-11-15', status: 'in_review', offers: pickOffers(3, 6),
-      owner: 'usr_priya', members: ['usr_kabir', 'usr_ananya'],
+      owner: 'usr_shifa', members: ['usr_prathap', 'usr_api'],
       messaging: 'Festive gifting language, no price-led hype. Deadline-driven but warm.',
       expected: [
         { label: 'Offers launched', value: '3', basis: 'Planned scope' },
@@ -564,7 +568,7 @@ function seedCampaigns(db: Database.Database, offers: { id: string; name: string
       description: 'Targets 6,256 Bengaluru lapsed members identified in the lifecycle export with a short re-entry proposition.',
       audience: ['long_lapsed_members'], locations: ['p57-blr-vmr'],
       start: '2026-10-18', end: '2026-11-30', status: 'approved', offers: pickOffers(3, 0),
-      owner: 'usr_priya', members: ['usr_kabir'],
+      owner: 'usr_shifa', members: ['usr_prathap'],
       messaging: 'Warm, personal, references the member history. No more than one follow-up.',
       expected: [
         { label: 'Audience pool', value: '6,256 lapsed members (observed)', basis: 'Member lifecycle export, Bengaluru studios' },
@@ -577,7 +581,7 @@ function seedCampaigns(db: Database.Database, offers: { id: string; name: string
       description: 'January is the strongest observed month for membership purchases in the Bengaluru export. Built to convert that intent into 3-month commitments rather than one-month trials.',
       audience: ['first_time_customers', 'previous_trial_customers'], locations: ['p57-blr-vmr', 'studio-cnc-indiranagar', 'plash-pilates-sadashivnagar'],
       start: '2026-12-26', end: '2027-01-31', status: 'planned', offers: pickOffers(2, 6),
-      owner: 'usr_aarav', members: ['usr_priya', 'usr_kabir', 'usr_ananya'],
+      owner: 'usr_jimmeey', members: ['usr_shifa', 'usr_prathap', 'usr_api'],
       messaging: 'Reset framing, programme-led, commitment-shaped.',
       expected: [
         { label: 'Seasonal context', value: 'January 2025 and January 2026 both peaked in observed membership revenue', basis: 'Bengaluru payments export' },
@@ -590,7 +594,7 @@ function seedCampaigns(db: Database.Database, offers: { id: string; name: string
       audience: ['existing_active_members', 'high_value_clients'], locations: ['p57-blr-vmr'],
       start: '2026-04-25', end: '2026-06-10', status: 'completed',
       offers: offers.filter(o => o.name.includes('Summer Bootcamp')).map(o => o.id),
-      owner: 'usr_priya', members: ['usr_kabir', 'usr_ananya'],
+      owner: 'usr_shifa', members: ['usr_prathap', 'usr_api'],
       messaging: 'Programme-led, transformation framing, nutrition support as the differentiator.',
       expected: [{ label: 'Format', value: '6 weeks, unlimited studio access + support', basis: 'Product definition in the membership export' }],
       actuals: [{ label: 'Observed sales', value: 'See attached performance records on the linked offer', basis: 'Bengaluru payments export' }],
@@ -602,7 +606,7 @@ function seedCampaigns(db: Database.Database, offers: { id: string; name: string
       audience: ['first_time_customers', 'existing_active_members'], locations: ['p57-blr-vmr'],
       start: '2025-11-18', end: '2025-12-15', status: 'completed',
       offers: offers.filter(o => o.name.includes('Anniversary')).map(o => o.id),
-      owner: 'usr_aarav', members: ['usr_priya'],
+      owner: 'usr_jimmeey', members: ['usr_shifa'],
       messaging: 'Anniversary gratitude, member-first, limited edition framing.',
       expected: [{ label: 'Format', value: '12-class pack + 2 complimentary classes', basis: 'Product definition' }],
       actuals: [{ label: 'Observed sales', value: 'See performance records on the linked offer', basis: 'Bengaluru payments export' }],
@@ -613,7 +617,7 @@ function seedCampaigns(db: Database.Database, offers: { id: string; name: string
       description: 'Referral mechanics that pay the member only when the referred friend purchases. Referral enquiries convert at a materially higher observed rate than website traffic.',
       audience: ['existing_active_members', 'referral_customers'], locations: ['p57-blr-vmr', 'studio-cnc-indiranagar'],
       start: '2026-11-01', end: '2026-12-20', status: 'planned', offers: pickOffers(2, 12),
-      owner: 'usr_ananya', members: ['usr_kabir', 'usr_priya'],
+      owner: 'usr_api', members: ['usr_prathap', 'usr_shifa'],
       messaging: 'Member-to-member, personal invitation tone. The reward is access for a friend plus a credit on their purchase.',
       expected: [
         { label: 'Observed referral conversion', value: 'Referral enquiries converted at a higher rate than website enquiries in the CRM export', basis: 'CRM lead export — context only, not a forecast' },
@@ -625,7 +629,7 @@ function seedCampaigns(db: Database.Database, offers: { id: string; name: string
       description: 'Weekday mornings at Vittal Mallya Road run materially below capacity in the attendance export. This plan prices access into those windows rather than discounting peak classes.',
       audience: ['low_frequency_members', 'existing_active_members'], locations: ['p57-blr-vmr'],
       start: '2026-10-20', end: '2026-12-15', status: 'planned', offers: pickOffers(3, 9),
-      owner: 'usr_ananya', members: ['usr_kabir'],
+      owner: 'usr_api', members: ['usr_prathap'],
       messaging: 'Quiet-hours access framing, schedule-led.',
       expected: [
         { label: 'Quietest observed window', value: 'See analytics → capacity map', basis: 'Attendance export utilisation by weekday and time band' },
@@ -663,21 +667,21 @@ function seedCollaboration(db: Database.Database, offers: { id: string; name: st
   }
   for (const o of approved) {
     appr.run(`apr_${crypto.randomBytes(5).toString('hex')}`, o.id, 1, 'submit', o.ownerId, 'Ready for review.', at(9, 2));
-    appr.run(`apr_${crypto.randomBytes(5).toString('hex')}`, o.id, 1, 'approve', 'usr_priya', 'Approved as written. Keep the redemption window as specified.', at(8, 5));
+    appr.run(`apr_${crypto.randomBytes(5).toString('hex')}`, o.id, 1, 'approve', 'usr_shifa', 'Approved as written. Keep the redemption window as specified.', at(8, 5));
   }
   for (const o of changesRequested) {
     appr.run(`apr_${crypto.randomBytes(5).toString('hex')}`, o.id, 1, 'submit', o.ownerId, 'Submitting for review.', at(6, 1));
-    appr.run(`apr_${crypto.randomBytes(5).toString('hex')}`, o.id, 1, 'request_changes', 'usr_priya', 'Hold the price, reduce the bonus credits by one and re-check the effective price per class before resubmitting.', at(5, 4));
+    appr.run(`apr_${crypto.randomBytes(5).toString('hex')}`, o.id, 1, 'request_changes', 'usr_shifa', 'Hold the price, reduce the bonus credits by one and re-check the effective price per class before resubmitting.', at(5, 4));
   }
 
   // comments
   const cmt = db.prepare(`INSERT INTO comments (id,offer_id,author_id,body,mentions,parent_id,created_at,resolved_at) VALUES (?,?,?,?,?,?,?,?)`);
   const commentSeeds = [
-    { offer: active[3], author: 'usr_priya', body: '@Kabir Nair this reads well. Please confirm the trainer has capacity for the private session before we submit.', mentions: ['usr_kabir'], at: at(3, 2) },
-    { offer: active[3], author: 'usr_kabir', body: 'Confirmed with the training team — the slots exist on Tuesday and Thursday evenings. @Priya Raghunathan ready when you are.', mentions: ['usr_priya'], at: at(3, 1) },
-    { offer: active[5], author: 'usr_ananya', body: 'Front desk flagged that a 14-day window for five classes was tight last time. Suggest 21 days.', mentions: [], at: at(4, 6) },
-    { offer: active[1], author: 'usr_priya', body: 'The price point is right. Do not add a discount on top — the extra credits already carry the value.', mentions: [], at: at(6, 2) },
-    { offer: active[7], author: 'usr_aarav', body: 'Before this goes out, confirm the guardrail configuration in Settings reflects what we agreed for Q4 rather than the platform defaults.', mentions: ['usr_priya'], at: at(7, 3) },
+    { offer: active[3], author: 'usr_shifa', body: '@Prathap K P this reads well. Please confirm the trainer has capacity for the private session before we submit.', mentions: ['usr_prathap'], at: at(3, 2) },
+    { offer: active[3], author: 'usr_prathap', body: 'Confirmed with the training team — the slots exist on Tuesday and Thursday evenings. @Shifa Ali ready when you are.', mentions: ['usr_shifa'], at: at(3, 1) },
+    { offer: active[5], author: 'usr_api', body: 'Front desk flagged that a 14-day window for five classes was tight last time. Suggest 21 days.', mentions: [], at: at(4, 6) },
+    { offer: active[1], author: 'usr_shifa', body: 'The price point is right. Do not add a discount on top — the extra credits already carry the value.', mentions: [], at: at(6, 2) },
+    { offer: active[7], author: 'usr_jimmeey', body: 'Before this goes out, confirm the guardrail configuration in Settings reflects what we agreed for Q4 rather than the platform defaults.', mentions: ['usr_shifa'], at: at(7, 3) },
   ];
   for (const c of commentSeeds) {
     if (!c.offer) continue;
@@ -687,16 +691,16 @@ function seedCollaboration(db: Database.Database, offers: { id: string; name: st
   // activity feed
   const act = db.prepare(`INSERT INTO activity (id,actor_id,action,entity_type,entity_id,entity_label,detail,meta_json,created_at) VALUES (?,?,?,?,?,?,?,?,?)`);
   const activitySeeds: string[][] = [
-    ['usr_priya', 'approved', 'offer', 'Approved', 'Approved without changes.'],
-    ['usr_kabir', 'submitted', 'offer', 'Submitted for review', 'Pricing re-checked against the configured ceilings.'],
-    ['usr_ananya', 'edited', 'offer', 'Edited commercial terms', 'Validity extended and bonus credits reduced.'],
-    ['usr_priya', 'commented', 'offer', 'Commented', '@mentions used to ask about trainer capacity.'],
-    ['usr_aarav', 'imported', 'catalogue', 'Imported membership catalogue', '88 source records parsed; non-retail records classified separately.'],
-    ['usr_aarav', 'updated', 'settings', 'Updated commercial guardrails', 'Discount ceilings and approval thresholds reviewed.'],
-    ['usr_kabir', 'created', 'campaign', 'Created campaign', 'Seasonal plan added to the planner.'],
-    ['usr_ananya', 'generated', 'offer', 'Generated offer concepts', 'Local strategist engine, catalogue-grounded.'],
-    ['usr_priya', 'requested_changes', 'offer', 'Requested changes', 'Reduce bonus credits and recheck effective price per class.'],
-    ['usr_rhea', 'viewed', 'offer', 'Reviewed messaging', 'Checked the WhatsApp and email drafts for tone.'],
+    ['usr_shifa', 'approved', 'offer', 'Approved', 'Approved without changes.'],
+    ['usr_prathap', 'submitted', 'offer', 'Submitted for review', 'Pricing re-checked against the configured ceilings.'],
+    ['usr_api', 'edited', 'offer', 'Edited commercial terms', 'Validity extended and bonus credits reduced.'],
+    ['usr_shifa', 'commented', 'offer', 'Commented', '@mentions used to ask about trainer capacity.'],
+    ['usr_jimmeey', 'imported', 'catalogue', 'Imported membership catalogue', '88 source records parsed; non-retail records classified separately.'],
+    ['usr_jimmeey', 'updated', 'settings', 'Updated commercial guardrails', 'Discount ceilings and approval thresholds reviewed.'],
+    ['usr_prathap', 'created', 'campaign', 'Created campaign', 'Seasonal plan added to the planner.'],
+    ['usr_api', 'generated', 'offer', 'Generated offer concepts', 'Local strategist engine, catalogue-grounded.'],
+    ['usr_shifa', 'requested_changes', 'offer', 'Requested changes', 'Reduce bonus credits and recheck effective price per class.'],
+    ['usr_sashi', 'viewed', 'offer', 'Reviewed messaging', 'Checked the WhatsApp and email drafts for tone.'],
   ];
   activitySeeds.forEach(([actor, action, type, label, detail], idx) => {
     const target = active[(idx * 3) % active.length];
@@ -708,10 +712,10 @@ function seedCollaboration(db: Database.Database, offers: { id: string; name: st
   // notifications
   const notif = db.prepare(`INSERT INTO notifications (id,user_id,title,body,href,created_at,read_at) VALUES (?,?,?,?,?,?,?)`);
   const notes: string[][] = [
-    ['usr_priya', '4 offers are waiting for review', 'Drafts submitted by the sales team are queued for approval.', '/offers?status=in_review'],
-    ['usr_kabir', 'Changes requested on a submitted offer', 'Priya Raghunathan asked for the bonus credits to be reduced.', '/offers?status=changes_requested'],
-    ['usr_aarav', 'Guardrails are still on platform defaults', 'Confirm the Q4 discount ceilings before publishing any discount-led offer.', '/settings#guardrails'],
-    ['usr_ananya', 'Win-back campaign starts in two days', 'Campaign Dormant Member Win-Back has offers attached and is approved.', '/campaigns'],
+    ['usr_shifa', '4 offers are waiting for review', 'Drafts submitted by the sales team are queued for approval.', '/offers?status=in_review'],
+    ['usr_prathap', 'Changes requested on a submitted offer', 'Shifa Ali asked for the bonus credits to be reduced.', '/offers?status=changes_requested'],
+    ['usr_jimmeey', 'Guardrails are still on platform defaults', 'Confirm the Q4 discount ceilings before publishing any discount-led offer.', '/settings#guardrails'],
+    ['usr_api', 'Win-back campaign starts in two days', 'Campaign Dormant Member Win-Back has offers attached and is approved.', '/campaigns'],
   ];
   notes.forEach(([user, title, body, href], idx) => {
     notif.run(`ntf_${crypto.randomBytes(5).toString('hex')}`, user, title, body, href, at(idx, 2), null);
@@ -723,9 +727,9 @@ function seedCollaboration(db: Database.Database, offers: { id: string; name: st
     'Generate an attractive comeback offer for a member who previously purchased an unlimited membership but has not visited in three months.',
     JSON.stringify({ audience: ['long_lapsed_members'], objectives: ['reactivate_lapsed'] }),
     '3 win-back concepts generated from the catalogue; each priced and guardrail-checked.',
-    JSON.stringify(active.slice(0, 3).map(o => o.id)), at(4, 2), 'usr_priya', 180,
+    JSON.stringify(active.slice(0, 3).map(o => o.id)), at(4, 2), 'usr_shifa', 180,
     null);
   gen.run(`gen_${crypto.randomBytes(5).toString('hex')}`, 'random', 'local_strategist', ENGINE_VERSION, null,
     JSON.stringify({ preset: 'creative-wildcard' }), '5 concepts across distinct commercial angles.', JSON.stringify([]),
-    at(9, 4), 'usr_ananya', 120, null);
+    at(9, 4), 'usr_api', 120, null);
 }

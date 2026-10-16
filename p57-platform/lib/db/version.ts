@@ -3,7 +3,7 @@
  * this against the value stored in the database and re-seeds when they differ, so the workspace is
  * never left half-old. Kept in its own module so `seed.ts` can record it without a circular import.
  */
-export const SEED_VERSION = '2026-10-16.6';
+export const SEED_VERSION = '2026-10-16.7';
 
 /**
  * Operational note: a change to the pricing engine that alters the figures stored in

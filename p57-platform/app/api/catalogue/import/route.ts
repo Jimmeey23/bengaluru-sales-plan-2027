@@ -194,7 +194,7 @@ export async function POST(req: NextRequest) {
     detail: `${summary.creates} created, ${summary.updates} updated, ${summary.flagged} flagged, ${summary.rejected} rejected. ${recalculated} offers recalculated.`,
   });
   if (summary.flagged || summary.rejected) {
-    notify('usr_priya', 'Catalogue import needs review',
+    notify('usr_shifa', 'Catalogue import needs review',
       `${summary.flagged} row(s) flagged and ${summary.rejected} rejected in ${body?.filename ?? 'the import'} — nothing was guessed.`,
       '/catalogue?tab=imports');
   }

@@ -171,7 +171,7 @@ export function saveOffer(payload: any, user: SessionUser): SaveResult {
   });
 
   if (needsReapproval) {
-    const approvers = ['usr_priya', 'usr_aarav'];
+    const approvers = ['usr_shifa', 'usr_jimmeey'];
     for (const a of approvers) notify(a, 'Reapproval needed', `${draft.name} has commercial changes after approval.`, `/offers/${id}`);
   }
 
@@ -268,7 +268,7 @@ export function applyWorkflowAction(args: {
 
   if (action === 'approve') notify(offer.ownerId, 'Offer approved', `${offer.name} was approved by ${user.name}.`, `/offers/${offer.id}`);
   if (action === 'request_changes') notify(offer.ownerId, 'Changes requested', `${user.name} asked for changes on ${offer.name}.`, `/offers/${offer.id}`);
-  if (action === 'submit') notify('usr_priya', 'Offer awaiting review', `${offer.name} was submitted by ${user.name}.`, `/offers/${offer.id}`);
+  if (action === 'submit') notify('usr_shifa', 'Offer awaiting review', `${offer.name} was submitted by ${user.name}.`, `/offers/${offer.id}`);
   if (action === 'publish') notify(offer.ownerId, 'Offer published', `${offer.name} is now live.`, `/offers/${offer.id}`);
 
   return { ok: true, status: 200, offer: getOffer(offer.id) ?? undefined };

@@ -45,7 +45,7 @@ const ENV_KEYS: Record<string, string[]> = {
 export const PROVIDER_CATALOGUE = [
   { id: 'local_strategist', label: 'Local strategist engine', models: ['rules-v1'] , note: 'Deterministic, catalogue-driven. Works with no network access and no key.' },
   { id: 'anthropic', label: 'Anthropic Claude', models: ['claude-sonnet-4-5', 'claude-opus-4-1', 'claude-haiku-4-5'], note: 'Requires your own API key.' },
-  { id: 'openai', label: 'OpenAI', models: ['gpt-5', 'gpt-4.1', 'gpt-4o-mini'], note: 'Requires your own API key.' },
+  { id: 'openai', label: 'OpenAI', models: ['gpt-5', 'gpt-5-mini', 'gpt-4.1', 'gpt-4o-mini'], note: 'Requires your own API key.' },
   { id: 'gemini', label: 'Google Gemini', models: ['gemini-2.5-pro', 'gemini-2.5-flash'], note: 'Requires your own API key.' },
 ] as const;
 
@@ -97,7 +97,9 @@ export async function callModel(resolution: ProviderResolution, call: ModelCall)
         method: 'POST',
         headers: { 'content-type': 'application/json', authorization: `Bearer ${key}` },
         body: JSON.stringify({
-          model: config.model, temperature: call.temperature ?? 0.6, max_tokens: call.maxTokens ?? 2000,
+          model: config.model, max_completion_tokens: call.maxTokens ?? 2000,
+          // GPT-5 and o-series reasoning models only accept the default temperature.
+          ...(/^(gpt-5|o\d)/.test(config.model ?? '') ? {} : { temperature: call.temperature ?? 0.6 }),
           messages: [{ role: 'system', content: call.system }, { role: 'user', content: call.user }],
           response_format: { type: 'json_object' },
         }),

@@ -4,8 +4,9 @@ import { ROLE_LABELS } from '@/lib/roles';
 import { getDb } from '@/lib/db';
 import { ensureSettingsRows, getSettings, getUser, listUsers, logActivity, notify, recomputeAllOfferMetrics, listImports } from '@/lib/data';
 import { PROVIDER_CATALOGUE, maskKey, resolveProvider } from '@/lib/ai/provider';
+import { writeStoredAiConfig } from '@/lib/ai/key-store';
 import { DEFAULT_GUARDRAILS, DEFAULT_ATTENDANCE, DEFAULT_SIMULATION } from '@/lib/engine';
-import type { CostAssumptions, GuardrailConfig, IntegrationConfig, Role } from '@/lib/types';
+import type { AIProviderConfig, CostAssumptions, GuardrailConfig, IntegrationConfig, Role } from '@/lib/types';
 
 export const dynamic = 'force-dynamic';
 
@@ -133,6 +134,9 @@ export async function PATCH(req: NextRequest) {
       next.keyConfigured = false;
       next.keyHint = null;
     }
+    // Persist outside the workspace database too, so the key survives re-seeding and applies to
+    // every member and session until someone removes it.
+    writeStoredAiConfig(next as AIProviderConfig);
     write('ai', next, provider === 'local_strategist'
       ? 'AI provider set to the local strategist engine (no external model).'
       : `${provider} configured. Keys are stored server-side and never returned to the browser.`);

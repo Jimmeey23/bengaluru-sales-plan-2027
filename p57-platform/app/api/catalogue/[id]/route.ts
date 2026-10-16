@@ -72,7 +72,7 @@ export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id
     meta: { changes },
   });
   if (changes.price) {
-    notify('usr_priya', 'Catalogue price changed', `${product.name} moved from ₹${Number((changes.price.from as number) ?? 0).toLocaleString('en-IN')} to ₹${Number(changes.price.to).toLocaleString('en-IN')}. Offers based on it were recalculated.`, `/catalogue/${id}`);
+    notify('usr_shifa', 'Catalogue price changed', `${product.name} moved from ₹${Number((changes.price.from as number) ?? 0).toLocaleString('en-IN')} to ₹${Number(changes.price.to).toLocaleString('en-IN')}. Offers based on it were recalculated.`, `/catalogue/${id}`);
   }
 
   return NextResponse.json({ product: getProduct(id), versions: productVersions(id), changes, recalculated });

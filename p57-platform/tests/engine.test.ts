@@ -100,7 +100,7 @@ function offer(partial: { name: string; baseProductId: string; terms: OfferTerms
     tags: [],
     collectionIds: [],
     campaignId: null,
-    ownerId: 'usr_aarav',
+    ownerId: 'usr_jimmeey',
     collaboratorIds: [],
     internalNotes: '',
     createdAt: now,

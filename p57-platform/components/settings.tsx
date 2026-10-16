@@ -749,7 +749,12 @@ function AiPanel({
           />
           <div className="grid gap-4 px-4 pb-4 pt-3 sm:grid-cols-2">
             <Field label="Provider" hint={current?.note}>
-              <Select value={provider} onChange={e => setProvider(e.target.value as AIProviderConfig['provider'])} disabled={!canManage}>
+              <Select value={provider} onChange={e => {
+                const next = e.target.value as AIProviderConfig['provider'];
+                setProvider(next);
+                // A model id from the previous provider would be sent to the new one, so reset it.
+                setModel(providerCatalogue.find(p => p.id === next)?.models[0] ?? '');
+              }} disabled={!canManage}>
                 {providerCatalogue.length === 0 && <option value={value.provider}>{value.provider}</option>}
                 {providerCatalogue.map(p => <option key={p.id} value={p.id}>{p.label}</option>)}
               </Select>
@@ -777,7 +782,7 @@ function AiPanel({
           </div>
           <SaveBar
             dirty={dirty} saving={saving} disabled={!canManage}
-            onSave={() => { onSave({ provider, model: model || null, baseUrl: baseUrl || null, apiKey: apiKey || undefined, clearKey }); setApiKey(''); setClearKey(false); }}
+            onSave={() => { onSave({ provider, model: model || models[0] || null, baseUrl: baseUrl || null, apiKey: apiKey || undefined, clearKey }); setApiKey(''); setClearKey(false); }}
           >
             <span className="text-2xs text-muted">
               {value.keyConfigured ? `Key last changed ${dateTimeLabel(value.updatedAt)}` : 'No key is stored.'}
@@ -798,8 +803,9 @@ function AiPanel({
               ]}
             />
             <p className="mt-3 text-2xs leading-relaxed text-muted">
-              Keys are held in the workspace database on the server. They are never sent to the browser, never written into
-              offer records, and never included in exports.
+              Keys are held on the server (workspace database plus a local key file that survives re-seeding), so one saved
+              key works for every team member and session. They are never sent to the browser, never written into offer
+              records, and never included in exports.
             </p>
           </div>
         </Card>

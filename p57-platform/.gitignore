@@ -4,3 +4,4 @@ data/app.db
 data/app.db-journal
 *.tsbuildinfo
 next-env.d.ts
+data/ai-config.local.json

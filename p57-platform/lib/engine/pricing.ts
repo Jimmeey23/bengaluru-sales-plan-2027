@@ -477,7 +477,7 @@ export const DEFAULT_GUARDRAILS: GuardrailConfig = {
   minValidityDays: 14,
   source: 'platform_defaults',
   updatedAt: AS_OF_ISO,
-  updatedBy: 'usr_aarav',
+  updatedBy: 'usr_jimmeey',
 };
 
 export const DEFAULT_COSTS: CostAssumptions = {
@@ -488,7 +488,7 @@ export const DEFAULT_COSTS: CostAssumptions = {
   source: 'not_configured',
   notes: 'No cost data has been supplied. Until delivery costs are entered, the platform will not state a margin — it reports revenue and price effects only.',
   updatedAt: AS_OF_ISO,
-  updatedBy: 'usr_aarav',
+  updatedBy: 'usr_jimmeey',
 };
 
 export const DEFAULT_ATTENDANCE: AttendanceAssumptions = {
@@ -499,7 +499,7 @@ export const DEFAULT_ATTENDANCE: AttendanceAssumptions = {
   sourceNote: 'No attendance assumption configured. Unlimited memberships cannot be valued per visit until one is set.',
   observedMedianVisitsPerMonth: null,
   updatedAt: AS_OF_ISO,
-  updatedBy: 'usr_aarav',
+  updatedBy: 'usr_jimmeey',
 };
 
 export const DEFAULT_SIMULATION: SimulationAssumptions = {

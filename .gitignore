@@ -6,3 +6,5 @@ node_modules/
 .next/
 *.tsbuildinfo
 p57-platform/data/app.db*
+# Holds the AI provider API key
+p57-platform/data/ai-config.local.json
