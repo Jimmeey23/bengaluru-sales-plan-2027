@@ -18,7 +18,7 @@ import { generateProposals, type EvidenceContext, type OfferProposal } from '@/l
 import { computeOfferMetrics } from '@/lib/engine';
 import { generateMessages } from '@/lib/engine/copy';
 import { SEED_VERSION } from '@/lib/db/version';
-import { readStoredAiConfig } from '@/lib/ai/key-store';
+import { environmentAiConfig, readStoredAiConfig } from '@/lib/ai/key-store';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
 
@@ -254,7 +254,7 @@ export function runSeed(db: Database.Database) {
       },
       simulation: DEFAULT_SIMULATION,
       // A key saved in Settings → AI survives re-seeding: it is restored from the local key store.
-      ai: readStoredAiConfig() ?? {
+      ai: readStoredAiConfig() ?? environmentAiConfig() ?? {
         provider: 'local_strategist', model: 'rules-v1', keyConfigured: false, keyHint: null,
         updatedAt: new Date().toISOString(), updatedBy: 'usr_jimmeey',
       },

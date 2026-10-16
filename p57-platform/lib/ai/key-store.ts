@@ -10,7 +10,10 @@ import fs from 'node:fs';
 import path from 'node:path';
 import type { AIProviderConfig } from '@/lib/types';
 
-const STORE_PATH = process.env.P57_AI_CONFIG_PATH || path.join(process.cwd(), 'data', 'ai-config.local.json');
+// On Vercel only /tmp is writable and it does not outlive the function instance; there the durable
+// route is an OPENAI_API_KEY (or ANTHROPIC_/GEMINI_) environment variable, which the seed picks up.
+const STORE_PATH = process.env.P57_AI_CONFIG_PATH
+  || (process.env.VERCEL ? path.join('/tmp', 'p57-ai-config.json') : path.join(process.cwd(), 'data', 'ai-config.local.json'));
 
 export function readStoredAiConfig(): AIProviderConfig | null {
   try {
@@ -20,6 +23,18 @@ export function readStoredAiConfig(): AIProviderConfig | null {
   } catch {
     return null;
   }
+}
+
+/** Without a saved config, a provider key in the environment makes that provider the default. */
+export function environmentAiConfig(): AIProviderConfig | null {
+  const now = new Date().toISOString();
+  const from = (provider: AIProviderConfig['provider'], model: string): AIProviderConfig => ({
+    provider, model, keyConfigured: true, keyHint: null, baseUrl: null, label: '', updatedAt: now, updatedBy: 'environment',
+  });
+  if (process.env.OPENAI_API_KEY) return from('openai', 'gpt-4.1');
+  if (process.env.ANTHROPIC_API_KEY) return from('anthropic', 'claude-sonnet-4-5');
+  if (process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY) return from('gemini', 'gemini-2.5-flash');
+  return null;
 }
 
 export function writeStoredAiConfig(config: AIProviderConfig): void {

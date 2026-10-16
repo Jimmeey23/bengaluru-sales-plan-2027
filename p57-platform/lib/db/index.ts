@@ -6,7 +6,9 @@ import { runSeed } from './seed';
 import { SEED_VERSION } from './version';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
-const DB_PATH = process.env.P57_DB_PATH || path.join(DATA_DIR, 'app.db');
+// Serverless hosts (Vercel) mount the deployment read-only; /tmp is the only writable path. A
+// database there lives as long as the function instance, so each cold start re-seeds.
+const DB_PATH = process.env.P57_DB_PATH || (process.env.VERCEL ? path.join('/tmp', 'p57-app.db') : path.join(DATA_DIR, 'app.db'));
 
 declare global {
   // eslint-disable-next-line no-var
@@ -15,7 +17,7 @@ declare global {
 
 export function getDb(): Database.Database {
   if (global.__p57db) return global.__p57db;
-  fs.mkdirSync(DATA_DIR, { recursive: true });
+  fs.mkdirSync(path.dirname(DB_PATH), { recursive: true });
   const db = new Database(DB_PATH);
   db.pragma('journal_mode = WAL');
   db.pragma('foreign_keys = ON');
